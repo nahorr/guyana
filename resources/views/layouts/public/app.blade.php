@@ -3,19 +3,19 @@
 
 <head>
   <!-- Title -->
-  <title>Gosgem | Home </title>
+  <title>Guyana Localcontentworld | Home </title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <meta property="og:image" content="http://gosgem.com/unify/assets/img/logo/gospelgem.png" />
-  <meta property="og:image:secure_url" content="https://gosgem.com/unify/assets/img/logo/gospelgem.png" />
+  <meta property="og:image" content="http://guyana.localcontentworld.com/unify/assets/img/logo/gospelgem.png" />
+  <meta property="og:image:secure_url" content="https://guyana.localcontentworld.com/unify/assets/img/logo/gospelgem.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="400" />
   <meta property="og:image:height" content="300" />
-  <meta property="og:image:alt" content="Gosgem" />
+  <meta property="og:image:alt" content="guyana_localcontentworld" />
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="{{asset('unify/favicon.png')}}">
@@ -82,13 +82,6 @@
 
   <!-- for google reCaptcha -->
   <script src='https://www.google.com/recaptcha/api.js'></script>
-
-  <!-- Master Slider -->
-    <link rel="stylesheet" href="{{asset('unify/assets/vendor/master-slider/source/assets/css/masterslider.main.css')}}">
-    <link rel="stylesheet" href="{{asset('unify/assets/css/master-slider-style.css')}}">
-
-  
-
   
 </head>
 

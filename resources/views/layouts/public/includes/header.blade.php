@@ -7,15 +7,15 @@
           <div class="row align-items-center">
             <div class="col-lg-6 g-mb-30 g-mb-0--lg">
               <h2 class="h1 text-uppercase g-color-white g-mb-30">
-                  <span class="g-bg-primary-dark-v3 g-px-5">Clean &amp; Fresh</span><br>
+                  <span class="g-bg-primary-dark-v3 g-px-5">Localcontent Guyana</span><br>
                   <span class="g-bg-primary-dark-v3 g-px-5">Fully Responsive</span><br>
                   <span class="g-bg-primary-dark-v3 g-px-5">Design</span>
                 </h2>
-              <h3 class="h4 g-color-white">
+              <!-- <h3 class="h4 g-color-white">
                   <span class="g-bg-black-opacity-0_6 g-px-5">Start a new project with easy</span><br>
                   <span class="g-bg-black-opacity-0_6 g-px-5">to use 1610+ Reusable</span><br>
                   <span class="g-bg-black-opacity-0_6 g-px-5">UI Components</span>
-                </h3>
+                </h3> -->
             </div>
             <div class="col-lg-6">
               <!-- Vimeo Example -->

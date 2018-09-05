@@ -2,7 +2,7 @@
 
 @section('content')
 
-  @include('layouts.public.includes.nav-header')
+   @include('layouts.public.includes.nav-header')
 
   @include('layouts.public.includes.header')
 
@@ -13,16 +13,11 @@
           <div class="col-lg-4 g-px-40 g-mb-50 g-mb-0--lg">
             <!-- Icon Blocks -->
             <div class="text-center">
-              <img class="img-fluid u-block-hover__main--zoom-v1 mb-5" src="{{asset('unify/assets/img/welcome/august_2018_program.png')}}" alt="gosgem Live Classes">
-              <h3 class="h5 g-color-gray-dark-v2 g-font-weight-600 text-uppercase mb-3">August 2018 Program</h3>
-              <p class="mb-0">Register Now for the SINACH Mentorship Session commencing August 2018.</p>
-              <hr>
-              <a href="{{url('mentorship')}}" class="btn btn-md u-btn-inset u-btn-yellow g-mr-10 g-mb-15">
-               
-                  <i class="fa fa-check-circle g-mr-3"></i>
-                  MORE INFORMATION
-              
-              </a>
+              <span class="d-inline-block u-icon-v3 u-icon-size--xl g-bg-primary g-color-white rounded-circle g-mb-30">
+                  <i class="icon-communication-081 u-line-icon-pro"></i>
+                </span>
+              <h3 class="h5 g-color-gray-dark-v2 g-font-weight-600 text-uppercase mb-3">Beautiful Designs</h3>
+              <p class="mb-0">We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
             </div>
             <!-- End Icon Blocks -->
           </div>
@@ -30,16 +25,11 @@
           <div class="col-lg-4 g-brd-left--lg g-brd-gray-light-v4 g-px-40 g-mb-50 g-mb-0--lg">
             <!-- Icon Blocks -->
             <div class="text-center">
-              <img class="img-fluid u-block-hover__main--zoom-v1 mb-5" src="{{asset('unify/assets/img/welcome/who_needs_gosgem.png')}}" alt="gosgem Live Classes">
-              <h3 class="h5 g-color-gray-dark-v2 g-font-weight-600 text-uppercase mb-3">Who Needs GosGem</h3>
-              <p class="mb-0">New artists, and all interested in learning about behind the scene operations.</p>
-              <hr>
-              <a href="{{url('about')}}" class="btn btn-md u-btn-inset u-btn-yellow g-mr-10 g-mb-15">
-                
-                  <i class="fa fa-check-circle g-mr-3"></i>
-                  READ MORE
-                
-              </a>
+              <span class="d-inline-block u-icon-v3 u-icon-size--xl g-bg-primary g-color-white rounded-circle g-mb-30">
+                  <i class="icon-finance-086 u-line-icon-pro"></i>
+                </span>
+              <h3 class="h5 g-color-gray-dark-v2 g-font-weight-600 text-uppercase mb-3">Unique Features</h3>
+              <p class="mb-0">We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
             </div>
             <!-- End Icon Blocks -->
           </div>
@@ -47,16 +37,11 @@
           <div class="col-lg-4 g-brd-left--lg g-brd-gray-light-v4 g-px-40">
             <!-- Icon Blocks -->
             <div class="text-center">
-              <img class="img-fluid u-block-hover__main--zoom-v1 mb-5" src="{{asset('unify/assets/img/welcome/about_gosgem.png')}}" alt="gosgem Live Classes">
-              <h3 class="h5 g-color-gray-dark-v2 g-font-weight-600 text-uppercase mb-3">About GosGem</h3>
-              <p class="mb-0">Gosgem is an online platform bridging the gap between a minister and the fanbase.</p>
-              <hr>
-              <a href="{{url('about')}}" class="btn btn-md u-btn-inset u-btn-yellow g-mr-10 g-mb-15">
-                
-                  <i class="fa fa-check-circle g-mr-3"></i>
-                  READ ABOUT GOSGEM
-               
-              </a>
+              <span class="d-inline-block u-icon-v3 u-icon-size--xl g-bg-primary g-color-white rounded-circle g-mb-30">
+                  <i class="icon-communication-057 u-line-icon-pro"></i>
+                </span>
+              <h3 class="h5 g-color-gray-dark-v2 g-font-weight-600 text-uppercase mb-3">Reliable Support</h3>
+              <p class="mb-0">We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
             </div>
             <!-- End Icon Blocks -->
           </div>
@@ -65,164 +50,463 @@
     </section>
     <!-- End Icon Blocks -->
 
-    <section class="container g-py-100">
-      <div class="row justify-content-center">
-        <div class="col-lg-7">
-          <!-- Heading -->
-          <div class="text-center g-mb-60">
-            <h2 class="h3 g-color-black text-uppercase mb-2">GOSGEM MENTORING INTRO</h2>
-            <div class="d-inline-block g-width-35 g-height-2 g-bg-primary mb-2"></div>
-            <!--<p class="mb-0">We are a creative studio focusing on culture, luxury, editorial &amp; art. Somewhere between sophistication and simplicity.</p>-->
-          </div>
-          <!-- End Heading -->
-        </div>
-      </div>
+    <hr class="g-brd-gray-light-v4 my-0">
 
-      <div class="row justify-content-center">
-        <div class="col-lg-9">
-          <!-- Article -->
-          <article class="u-shadow-v21 g-bg-size-cover g-bg-pos-bottom-center text-center">
-            
-              <iframe width="100%" height="500" src="https://www.youtube.com/embed/rcebP75T_EA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-           
-          </article>
-          <!-- End Article -->
+    <!-- Our Services -->
+    <section class="g-py-100">
+      <div class="container">
+        <header class="text-center g-width-60x--md mx-auto g-mb-50">
+          <div class="u-heading-v2-3--bottom g-brd-primary g-mb-20">
+            <h2 class="h4 u-heading-v2__title g-color-gray-dark-v2 g-font-weight-600 text-uppercase">Our Services</h2>
+          </div>
+          <p class="g-font-size-16">Unify's 1610+ easy to use and customizable UI elements make it most customizable theme on the market. Build websites easily as never before!</p>
+        </header>
+
+        <div class="row justify-content-center g-mb-20">
+          <div class="col-md-6 col-lg-4 g-mb-50 g-mb-0--lg">
+            <!-- Services -->
+            <div class="u-shadow-v28 g-bg-white text-left text-md-center rounded g-py-40">
+              <!-- Services - Header -->
+              <header class="text-center g-px-30 mb-5">
+                <div class="g-mb-25">
+                  <span class="u-icon-v2 u-icon-size--md g-brd-gray-light-v4 g-color-primary rounded-circle">
+                      <i class="icon-finance-211 u-line-icon-pro"></i>
+                    </span>
+                </div>
+                <h2 class="h5 g-color-gray-dark-v2 g-font-weight-600">Marketing &amp; Consulting</h2>
+                <p class="g-font-size-13">This is where we sit down, grab a cup of coffee and dial in the details.</p>
+              </header>
+              <!-- End Services - Header -->
+
+              <!-- Services - List -->
+              <ul class="list-unstyled mb-0">
+                <li class="d-flex align-items-center g-px-35 g-py-15">
+                  <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z" fill="#72c02c"></path>
+                  </svg>
+                  <span class="g-color-text ml-3">24/7 support</span>
+                </li>
+                <li class="d-flex align-items-center u-shadow-v19 g-bg-secondary g-px-35 g-py-15">
+                  <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z" fill="#72c02c"></path>
+                  </svg>
+                  <span class="g-color-text ml-3">1610+ elements</span>
+                </li>
+                <li class="d-flex align-items-center g-px-35 g-py-15">
+                  <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z" fill="#72c02c"></path>
+                  </svg>
+                  <span class="g-color-text ml-3">600+ pages</span>
+                </li>
+                <li class="d-flex align-items-center u-shadow-v19 g-bg-secondary g-px-35 g-py-15">
+                  <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z" fill="#72c02c"></path>
+                  </svg>
+                  <span class="g-color-text ml-3">Unlimited domain or user</span>
+                </li>
+              </ul>
+              <!-- End Services - List -->
+            </div>
+            <!-- End Services -->
+          </div>
+
+          <div class="col-md-6 col-lg-4 g-mb-50 g-mb-0--lg">
+            <!-- Services -->
+            <div class="u-shadow-v29 g-bg-primary text-left text-md-center rounded g-py-40">
+              <!-- Services - Header -->
+              <header class="text-center g-px-35 mb-5">
+                <div class="g-mb-25">
+                  <span class="u-icon-v3 u-icon-size--md g-color-text g-bg-secondary rounded-circle">
+                      <i class="icon-finance-257 u-line-icon-pro"></i>
+                    </span>
+                </div>
+                <h2 class="h5 g-color-white g-font-weight-600">SEO &amp; Advertising</h2>
+                <p class="g-color-white-opacity-0_9 g-font-size-13">Now that we've aligned the details, it's time to get things organized.</p>
+              </header>
+              <!-- End Services - Header -->
+
+              <!-- Services - List -->
+              <ul class="list-unstyled g-color-white-opacity-0_8 mb-0">
+                <li class="d-flex align-items-center g-px-35 g-py-15">
+                  <svg width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z" fill="#fff"></path>
+                  </svg>
+                  <span class="ml-3">24/7 support</span>
+                </li>
+                <li class="d-flex align-items-center u-shadow-v19 g-bg-white-opacity-0_1 g-px-35 g-py-15">
+                  <svg width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z" fill="#fff"></path>
+                  </svg>
+                  <span class="ml-3">1610+ elements</span>
+                </li>
+                <li class="d-flex align-items-center g-px-35 g-py-15">
+                  <svg width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z" fill="#fff"></path>
+                  </svg>
+                  <span class="ml-3">600+ pages</span>
+                </li>
+                <li class="d-flex align-items-center u-shadow-v19 g-bg-white-opacity-0_1 g-px-35 g-py-15">
+                  <svg width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z" fill="#fff"></path>
+                  </svg>
+                  <span class="ml-3">Unlimited domain or user</span>
+                </li>
+              </ul>
+              <!-- End Services - List -->
+            </div>
+            <!-- End Services -->
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <!-- Services -->
+            <div class="u-shadow-v28 g-bg-white text-left text-md-center rounded g-py-40">
+              <!-- Services - Header -->
+              <header class="text-center g-px-35 mb-5">
+                <div class="g-mb-25">
+                  <span class="u-icon-v2 u-icon-size--md g-brd-gray-light-v4 g-color-primary rounded-circle">
+                      <i class="icon-communication-164 u-line-icon-pro"></i>
+                    </span>
+                </div>
+                <h2 class="h5 g-color-gray-dark-v2 g-font-weight-600">Design &amp; Development</h2>
+                <p class="g-font-size-13">This is where we begin to visualize your sketches and make them into beautiful pixels.</p>
+              </header>
+              <!-- End Services - Header -->
+
+              <!-- Services - List -->
+              <ul class="list-unstyled mb-0">
+                <li class="d-flex align-items-center g-px-35 g-py-15">
+                  <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z" fill="#72c02c"></path>
+                  </svg>
+                  <span class="g-color-text ml-3">24/7 support</span>
+                </li>
+                <li class="d-flex align-items-center u-shadow-v19 g-bg-secondary g-px-35 g-py-15">
+                  <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z" fill="#72c02c"></path>
+                  </svg>
+                  <span class="g-color-text ml-3">1610+ elements</span>
+                </li>
+                <li class="d-flex align-items-center g-px-35 g-py-15">
+                  <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z" fill="#72c02c"></path>
+                  </svg>
+                  <span class="g-color-text ml-3">600+ pages</span>
+                </li>
+                <li class="d-flex align-items-center u-shadow-v19 g-bg-secondary g-px-35 g-py-15">
+                  <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z" fill="#72c02c"></path>
+                  </svg>
+                  <span class="g-color-text ml-3">Unlimited domain or user</span>
+                </li>
+              </ul>
+              <!-- End Services - List -->
+            </div>
+            <!-- End Services -->
+          </div>
         </div>
       </div>
     </section>
+    <!-- End Our Services -->
 
     <hr class="g-brd-gray-light-v4 my-0">
 
-
-
-    <!-- Call to Action --> 
-    <div class="g-pos-rel"> 
-      <div class="container text-center g-pt-50 g-pb-50">
-       <img class="img-fluid img-thumbnail rounded-circle" src="{{asset('unify/assets/img/sinach_mic.jpg')}}" alt="Sinach">
-        <!-- Heading -->
-         <div class="g-max-width-645 mx-auto g-mb-40"> 
-          <h2 class="h1 mb-3">SINACH MENTORS LIVE!</h2> 
-          <p>Sinach Mentors, Live! Is an online mentorship program holding this August, 2018 by Sinach, and hosted by Gospel Music start up mentorship platform, GosGEM, where for the first time arranged in an organized curricula, Sinach will opening the digital doors to release vital trainings, and information to spark up Gospel Music Talents to make and break records in the music industry.</p> 
-        </div> 
-        <!-- End Heading --> 
-        <a class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-rounded-30 g-px-35 g-py-13" href="{{url('register')}}">Register Now</a> 
-        <!-- SVG Shape --> 
-        <svg class="d-inline-block g-width-35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 37 1" enable-background="new 0 0 37 1" xml:space="preserve"> 
-          <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="0" y1="0.5" x2="37" y2="0.5"> 
-            <stop offset="0" style="stop-color:#f5f6fa"></stop> <stop offset="1" style="stop-color:#b5b8cb"></stop> 
-          </linearGradient> 
-          <line fill="none" stroke="url(#SVGID_5_)" stroke-miterlimit="10" x1="37" y1="0.5" x2="0" y2="0.5"></line> 
-        </svg> <!-- End SVG Shape --> 
-        <span class="align-middle g-color-primary mx-1">or</span> 
-        <!-- SVG Shape --> 
-        <svg class="d-inline-block g-width-35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 37 1" enable-background="new 0 0 37 1" xml:space="preserve"> 
-          <linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-10" y1="-1.5" x2="27" y2="-1.5" gradientTransform="matrix(-1 0 0 -1 27 -1)"> 
-            <stop offset="0" style="stop-color:#f5f6fa"></stop> 
-            <stop offset="1" style="stop-color:#b5b8cb"></stop> 
-          </linearGradient> 
-          <line fill="none" stroke="url(#SVGID_6_)" stroke-miterlimit="10" x1="0" y1="0.5" x2="37" y2="0.5"></line> 
-        </svg> <!-- End SVG Shape --> 
-        <a class="btn u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-main--hover g-rounded-30 g-px-35 g-py-13" href="{{url('contact')}}">Contact Us</a> 
-      </div> 
-      <!-- SVG Background Shape --> 
-      <svg class="g-pos-abs g-bottom-0 g-left-0 g-z-index-minus-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 323" enable-background="new 0 0 1920 323" xml:space="preserve"> 
-        <polygon fill="#f0f2f8" points="0,323 1920,323 1920,0 "></polygon> 
-        <polygon fill="#f5f6fa" points="-0.5,322.5 -0.5,131.5 658.3,212.3 "></polygon> 
-      </svg> <!-- End SVG Background Shape --> </div> <!-- End Call to Action -->
-
-  <hr class="g-brd-gray-light-v4 my-0">
-
-    <!-- Projects -->
-    <section class="container g-py-100">
-      <div class="text-center g-mb-50">
-        <h2 class="h1 g-color-black g-font-weight-600">What We Do</h2>
-        <p class="lead">We provide six core services:</p>
-      </div>
-
-      <div class="row no-gutters g-mx-minus-10">
-        <div class="col-sm-6 col-lg-4 g-px-10 g-mb-20">
-          <!-- Projects -->
-          <div class="u-block-hover g-brd-around g-brd-gray-light-v4 g-color-black g-color-white--hover g-bg-primary--hover text-center rounded g-transition-0_3 g-px-30 g-py-50">
-            <img class="img-fluid u-block-hover__main--zoom-v1 mb-5" src="{{asset('unify/assets/img/what-we-do/vocals.png')}}" alt="vocals">
-            <span class="g-font-weight-600 g-font-size-12 text-uppercase"></span>
-            <h3 class="h4 g-font-weight-600 mb-0">Vocals</h3>
-
-            <a class="u-link-v2" href="{{url('mentorship')}}"></a>
+    <!-- Our Recent Projects -->
+    <section class="g-py-100">
+      <div class="container">
+        <header class="g-mb-50">
+          <div class="u-heading-v2-3--bottom g-brd-primary g-mb-20">
+            <h2 class="h4 u-heading-v2__title g-color-gray-dark-v2 g-font-weight-600 text-uppercase">Our Recent Projects</h2>
           </div>
-          <!-- End Projects -->
-        </div>
+          <p class="g-font-size-16">Included Over 2000+ UI Components tvero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas moles.</p>
+        </header>
 
-        <div class="col-sm-6 col-lg-4 g-px-10 g-mb-20">
-          <!-- Projects -->
-          <div class="u-block-hover g-brd-around g-brd-gray-light-v4 g-color-black g-color-white--hover g-bg-primary--hover text-center rounded g-transition-0_3 g-px-30 g-py-50">
-            <img class="img-fluid u-block-hover__main--zoom-v1 mb-5" src="{{asset('unify/assets/img/what-we-do/music_production.png')}}" alt="gosgem">
-            <span class="g-font-weight-600 g-font-size-12 text-uppercase"></span>
-            <h3 class="h4 g-font-weight-600 mb-0">Music Production</h3>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 g-mb-30 g-mb-0--lg">
+            <article class="u-block-hover u-shadow-v21 rounded">
+              <figure class="u-bg-overlay g-bg-black-opacity-0_4--after">
+                <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="{{asset('unify/assets/img-temp/400x270/img17.jpg')}}" alt="Image description">
+              </figure>
 
-            <a class="u-link-v2" href="{{url('coming-soon')}}"></a>
+              <header class="u-bg-overlay__inner g-pos-abs g-top-30 g-right-30 g-left-30 g-color-white">
+                <h3 class="h4">
+                    <a class="g-color-white" href="#!">Unify Template</a>
+                  </h3>
+                <p>Consectetur adipiscing elitut eleifend nisl</p>
+              </header>
+
+              <ul class="list-inline u-bg-overlay__inner g-pos-abs g-bottom-10 g-left-30 g-opacity-0_8">
+                <li class="list-inline-item">
+                  <div class="g-brd-around g-brd-2 g-brd-white rounded-circle">
+                    <img class="g-width-30 g-height-30 rounded-circle" src="{{asset('unify/assets/img-temp/100x100/img12.jpg')}}" alt="Image description">
+                  </div>
+                </li>
+                <li class="list-inline-item g-ml-minus-20">
+                  <div class="g-brd-around g-brd-2 g-brd-white rounded-circle">
+                    <img class="g-width-30 g-height-30 rounded-circle" src="{{asset('unify/assets/img-temp/100x100/img5.jpg')}}" alt="Image description">
+                  </div>
+                </li>
+                <li class="list-inline-item g-ml-minus-20">
+                  <div class="g-brd-around g-brd-2 g-brd-white rounded-circle">
+                    <img class="g-width-30 g-height-30 rounded-circle" src="{{asset('unify/assets/img-temp/100x100/img7.jpg')}}" alt="Image description">
+                  </div>
+                </li>
+                <li class="list-inline-item g-font-weight-600 g-color-white">+21</li>
+              </ul>
+            </article>
           </div>
-          <!-- End Projects -->
-        </div>
 
-        <div class="col-sm-6 col-lg-4 g-px-10 g-mb-20">
-          <!-- Projects -->
-          <div class="u-block-hover g-brd-around g-brd-gray-light-v4 g-color-black g-color-white--hover g-bg-primary--hover text-center rounded g-transition-0_3 g-px-30 g-py-50">
-            <img class="img-fluid u-block-hover__main--zoom-v1 mb-5" src="{{asset('unify/assets/img/what-we-do/goscompetition.png')}}" alt="gosgem">
-            <span class="g-font-weight-600 g-font-size-12 text-uppercase"></span>
-            <h3 class="h4 g-font-weight-600 mb-0">Gosgem Music Competition</h3>
+          <div class="col-lg-4 col-md-6 g-mb-30 g-mb-0--lg">
+            <article class="u-block-hover u-shadow-v21 rounded">
+              <figure class="u-bg-overlay g-bg-black-opacity-0_4--after">
+                <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="{{asset('unify/assets/img-temp/400x270/img13.jpg')}}" alt="Image description">
+              </figure>
 
-            <a class="u-link-v2" href="{{url('coming-soon')}}"></a>
+              <header class="u-bg-overlay__inner g-pos-abs g-top-30 g-right-30 g-left-30 g-color-white">
+                <h3 class="h4">
+                    <a class="g-color-white" href="#!">Htmlstream Freebies</a>
+                  </h3>
+                <p>Consectetur adipiscing elitut eleifend nisl</p>
+              </header>
+
+              <ul class="list-inline u-bg-overlay__inner g-pos-abs g-bottom-10 g-left-30 g-opacity-0_8">
+                <li class="list-inline-item">
+                  <div class="g-brd-around g-brd-2 g-brd-white rounded-circle">
+                    <img class="g-width-30 g-height-30 rounded-circle" src="{{asset('unify/assets/img-temp/100x100/img7.jpg')}}" alt="Image description">
+                  </div>
+                </li>
+                <li class="list-inline-item g-ml-minus-20">
+                  <div class="g-brd-around g-brd-2 g-brd-white rounded-circle">
+                    <img class="g-width-30 g-height-30 rounded-circle" src="{{asset('unify/assets/img-temp/100x100/img4.jpg')}}" alt="Image description">
+                  </div>
+                </li>
+                <li class="list-inline-item g-ml-minus-20">
+                  <div class="g-brd-around g-brd-2 g-brd-white rounded-circle">
+                    <img class="g-width-30 g-height-30 rounded-circle" src="{{asset('unify/assets/img-temp/100x100/img5.jpg')}}" alt="Image description">
+                  </div>
+                </li>
+                <li class="list-inline-item g-font-weight-600 g-color-white">+42</li>
+              </ul>
+            </article>
           </div>
-          <!-- End Projects -->
-        </div>
 
-        <div class="col-sm-6 col-lg-4 g-px-10 g-mb-20">
-          <!-- Projects -->
-          <div class="u-block-hover g-brd-around g-brd-gray-light-v4 g-color-black g-color-white--hover g-bg-primary--hover text-center rounded g-transition-0_3 g-px-30 g-py-50">
-            <img class="img-fluid u-block-hover__main--zoom-v1 mb-5" src="{{asset('unify/assets/img/what-we-do/GOSBUSINESS.png')}}" alt="gosgem">
-            <!--<span class="g-font-weight-600 g-font-size-12 text-uppercase">Hi-tech</span>-->
-            <h3 class="h4 g-font-weight-600 mb-0">Gosbusiness</h3>
+          <div class="col-lg-4 col-md-6">
+            <article class="u-block-hover u-shadow-v21 rounded">
+              <figure class="u-bg-overlay g-bg-black-opacity-0_4--after">
+                <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="{{asset('unify/assets/img-temp/400x270/img3.jpg')}}" alt="Image description">
+              </figure>
 
-            <a class="u-link-v2" href="{{url('coming-soon')}}"></a>
+              <header class="u-bg-overlay__inner g-pos-abs g-top-30 g-right-30 g-left-30 g-color-white">
+                <h3 class="h4">
+                    <a class="g-color-white" href="#!">Pixeel Ltd.</a>
+                  </h3>
+                <p>Consectetur adipiscing elitut eleifend nisl</p>
+              </header>
+
+              <ul class="list-inline u-bg-overlay__inner g-pos-abs g-bottom-10 g-left-30 g-opacity-0_8">
+                <li class="list-inline-item">
+                  <div class="g-brd-around g-brd-2 g-brd-white rounded-circle">
+                    <img class="g-width-30 g-height-30 rounded-circle" src="{{asset('unify/assets/img-temp/100x100/img5.jpg')}}" alt="Image description">
+                  </div>
+                </li>
+                <li class="list-inline-item g-ml-minus-20">
+                  <div class="g-brd-around g-brd-2 g-brd-white rounded-circle">
+                    <img class="g-width-30 g-height-30 rounded-circle" src="{{asset('unify/assets/img-temp/100x100/img7.jpg')}}" alt="Image description">
+                  </div>
+                </li>
+                <li class="list-inline-item g-ml-minus-20">
+                  <div class="g-brd-around g-brd-2 g-brd-white rounded-circle">
+                    <img class="g-width-30 g-height-30 rounded-circle" src="{{asset('unify/assets/img-temp/100x100/img6.jpg')}}" alt="Image description">
+                  </div>
+                </li>
+                <li class="list-inline-item g-font-weight-600 g-color-white">+15</li>
+              </ul>
+            </article>
           </div>
-          <!-- End Projects -->
-        </div>
-
-        <div class="col-sm-6 col-lg-4 g-px-10 g-mb-20">
-          <!-- Projects -->
-          <div class="u-block-hover g-brd-around g-brd-gray-light-v4 g-color-black g-color-white--hover g-bg-primary--hover text-center rounded g-transition-0_3 g-px-30 g-py-50">
-            <img class="img-fluid u-block-hover__main--zoom-v1 mb-5" src="{{asset('unify/assets/img/what-we-do/gos_mentoring.png')}}" alt="gos_mentoring">
-            <span class="g-font-weight-600 g-font-size-12 text-uppercase"></span>
-            <h3 class="h4 g-font-weight-600 mb-0">Gosgem Mentoring</h3>
-
-            <a class="u-link-v2" href="{{url('coming-soon')}}"></a>
-          </div>
-          <!-- End Projects -->
-        </div>
-
-        <div class="col-sm-6 col-lg-4 g-px-10 g-mb-20">
-          <!-- Projects -->
-          <div class="u-block-hover g-brd-around g-brd-gray-light-v4 g-color-black g-color-white--hover g-bg-primary--hover text-center rounded g-transition-0_3 g-px-30 g-py-50">
-            <img class="img-fluid u-block-hover__main--zoom-v1 mb-5" src="{{asset('unify/assets/img/what-we-do/GOSBRANDING.png')}}" alt="gosgem">
-            <h3 class="h5 g-font-weight-600 mb-0">Gosgem Products and Services/Brand Development</h3>
-
-            <a class="u-link-v2" href="{{url('coming-soon')}}"></a>
-          </div>
-          <!-- End Projects -->
         </div>
       </div>
     </section>
-    <!-- End Projects -->
+    <!-- End Our Recent Projects -->
+
+    <!-- Most Quality Solution -->
+    <section class="dzsparallaxer auto-init height-is-based-on-content use-loading" data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}'>
+      <!-- Parallax Image -->
+      <div class="divimage dzsparallaxer--target w-100 u-bg-overlay g-bg-img-hero g-bg-white-opacity-0_7--after" style="height: 140%; background-image: url(../../assets/img-temp/1920x1080/img7.jpg);"></div>
+      <!-- End Parallax Image -->
+
+      <div class="container u-bg-overlay__inner g-py-150--md g-py-80">
+        <div class="row">
+          <!-- Section Content -->
+          <div class="col-lg-6 order-2 order-sm-1 g-mb-0 g-mb-50--sm g-mb-0--lg">
+            <div class="u-heading-v2-3--bottom g-brd-primary g-mb-30">
+              <h2 class="h4 u-heading-v2__title g-color-gray-dark-v2 g-font-weight-600 text-uppercase">Most Quality Solution</h2>
+            </div>
+            <p class="g-font-size-16 g-line-height-2 g-mb-30">Morbi a suscipit ipsum. Suspendisse mollis libero ante. Pellentesque finibus convallis nulla vel placerat. Nulla ipsum dolor sit amet, consectetur adipiscing elitut eleifend nisl. Ullam elementum tincidunt massa, a pulvinar leo ultricies ut.</p>
+
+            <div class="g-mb-30">
+              <img class="u-block-hover__main--grayscale g-width-100 g-opacity-0_6 g-mr-40 g-mb-10 g-mb-0--sm" src="{{asset('unify/assets/img-temp/200x100/img8.png')}}" alt="Image description">
+              <img class="u-block-hover__main--grayscale g-width-100 g-opacity-0_6 g-mr-40 g-mb-10 g-mb-0--sm" src="{{asset('unify/assets/img-temp/200x100/img6.png')}}" alt="Image description">
+              <img class="u-block-hover__main--grayscale g-width-100 g-opacity-0_6" src="{{asset('unify/assets/img-temp/200x100/img3.png')}}" alt="Image description">
+            </div>
+
+            <a href="#!" class="btn btn-xl u-btn-primary text-uppercase g-font-weight-600 g-font-size-12 rounded g-mr-15 g-mb-15 g-mb-0--sm">Buy Full Version</a>
+            <small class="d-block d-sm-inline-block g-color-gray-dark-v5 g-font-size-12">*Exclusive item on Wrapboostrap Marketpalce</small>
+          </div>
+          <!-- End Section Content -->
+
+          <!-- Video Icon -->
+          <div class="col-lg-6 order-1 order-sm-2 align-self-center text-center g-pos-rel g-mb-40 g-mb-0--sm">
+            <a class="js-fancybox d-block g-pos-rel" href="javascript:;" data-src="//vimeo.com/167434033" data-speed="350" data-caption="Lightbox Gallery">
+              <span class="u-icon-v3 u-icon-size--xl u-block-hover--scale u-shadow-v24 g-bg-white g-color-gray-dark-v1 g-color-primary--hover g-font-size-20 rounded-circle g-cursor-pointer g-mb-10">
+                  <i class="fa fa-play g-pos-rel g-left-2"></i>
+                </span>
+            </a>
+            <p class="g-color-gray-dark-v5">Watch our 2 min video.</p>
+          </div>
+          <!-- End Video Icon -->
+        </div>
+      </div>
+    </section>
+    <!-- End Most Quality Solution -->
+
+    <!-- Counters -->
+    <section class="g-brd-top g-brd-bottom g-brd-gray-light-v4 g-pt-50">
+      <div class="container">
+        <div class="row text-center text-uppercase">
+          <div class="col-lg-3 col-sm-6 g-brd-right g-brd-gray-light-v4 g-mb-50">
+            <div class="js-counter g-color-gray-dark-v2 g-font-size-35 g-font-weight-300 g-mb-7">52147</div>
+            <h4 class="h6 g-color-gray-dark-v5">Code Lines</h4>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 g-brd-right--lg g-brd-gray-light-v4 g-mb-50">
+            <div class="js-counter g-color-gray-dark-v2 g-font-size-35 g-font-weight-300 g-mb-7">24583</div>
+            <h4 class="h6 g-color-gray-dark-v5">Projects</h4>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 g-brd-right g-brd-gray-light-v4 g-mb-50">
+            <div class="js-counter g-color-gray-dark-v2 g-font-size-35 g-font-weight-300 g-mb-7">7348</div>
+            <h4 class="h6 g-color-gray-dark-v5">Working Hours</h4>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 g-mb-50">
+            <div class="js-counter g-color-gray-dark-v2 g-font-size-35 g-font-weight-300 g-mb-7">87904</div>
+            <h4 class="h6 g-color-gray-dark-v5">Job Offers</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Counters -->
+
+    <!-- Latest News -->
+    <section class="g-py-100">
+      <div class="container">
+        <header class="text-center g-width-60x--md mx-auto g-mb-50">
+          <div class="u-heading-v2-3--bottom g-brd-primary g-mb-20">
+            <h2 class="h4 u-heading-v2__title g-color-gray-dark-v2 g-font-weight-600 text-uppercase">Our Latest News</h2>
+          </div>
+          <p class="g-font-size-16">Unify creative technology company providing key digital services. Keep in touch with our support team to get the latest updates from us.</p>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-4 g-mb-30">
+            <!-- Article -->
+            <article class="u-shadow-v21 g-bg-white rounded">
+              <div class="g-pa-30">
+                <h3 class="g-font-weight-300 g-mb-15">
+                    <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">Focused on helping our clients to build a great business</a>
+                  </h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+              </div>
+
+              <div class="media g-font-size-12 g-brd-top g-brd-gray-light-v4 g-pa-15-30">
+                <img class="d-flex g-width-20 g-height-20 rounded-circle g-mr-10" src="{{asset('unify/assets/img-temp/100x100/img5.jpg')}}" alt="Image Description">
+                <div class="media-body align-self-center">
+                  <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">Kathy Reyes</a>
+                </div>
+
+                <div class="align-self-center">
+                  <a class="u-link-v5 g-color-main g-color-primary--hover g-mr-10" href="#!">
+                    <i class="icon-bubbles align-middle g-mr-3"></i> 24
+                  </a>
+                  <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                    <i class="icon-eye align-middle g-mr-3"></i> 108
+                  </a>
+                </div>
+              </div>
+            </article>
+            <!-- End Article -->
+          </div>
+
+          <div class="col-lg-4 g-mb-30">
+            <!-- Article -->
+            <article class="u-shadow-v21 g-bg-white rounded">
+              <div class="g-pa-30">
+                <h3 class="g-font-weight-300 g-mb-15">
+                    <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">We build your website to realise your vision, project and more</a>
+                  </h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+              </div>
+
+              <div class="media g-font-size-12 g-brd-top g-brd-gray-light-v4 g-pa-15-30">
+                <img class="d-flex g-width-20 g-height-20 rounded-circle g-mr-10" src="{{asset('unify/assets/img-temp/100x100/img14.jpg')}}" alt="Image Description">
+                <div class="media-body align-self-center">
+                  <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">William Sh.</a>
+                </div>
+
+                <div class="align-self-center">
+                  <a class="u-link-v5 g-color-main g-color-primary--hover g-mr-10" href="#!">
+                    <i class="icon-bubbles align-middle g-mr-3"></i> 16
+                  </a>
+                  <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                    <i class="icon-eye align-middle g-mr-3"></i> 124
+                  </a>
+                </div>
+              </div>
+            </article>
+            <!-- End Article -->
+          </div>
+
+          <div class="col-lg-4 g-mb-30">
+            <!-- Article -->
+            <article class="u-shadow-v21 g-bg-white rounded">
+              <div class="g-pa-30">
+                <h3 class="g-font-weight-300 g-mb-15">
+                    <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">Praesentium to website realise imperdiet demore elementum</a>
+                  </h3>
+                <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellusimp imperdiet molestie est volutpat at. Sed viverra cursus nibh.</p>
+              </div>
+
+              <div class="media g-font-size-12 g-brd-top g-brd-gray-light-v4 g-pa-15-30">
+                <img class="d-flex g-width-20 g-height-20 rounded-circle g-mr-10" src="{{asset('unify/assets/img-temp/100x100/img17.jpg')}}" alt="Image Description">
+                <div class="media-body align-self-center">
+                  <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">James Doe</a>
+                </div>
+
+                <div class="align-self-center">
+                  <a class="u-link-v5 g-color-main g-color-primary--hover g-mr-10" href="#!">
+                    <i class="icon-bubbles align-middle g-mr-3"></i> 41
+                  </a>
+                  <a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">
+                    <i class="icon-eye align-middle g-mr-3"></i> 219
+                  </a>
+                </div>
+              </div>
+            </article>
+            <!-- End Article -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Latest News -->
 
 
     <!-- Call To Action -->
     <section class="g-bg-primary g-color-white g-pa-30" style="background-image: url(/unify/assets/img/bg/pattern5.png);">
       <div class="d-md-flex justify-content-md-center text-center">
         <div class="align-self-md-center">
-          <p class="lead g-font-weight-400 g-mr-20--md g-mb-15 g-mb-0--md">Learn from the best and become the best. Join our mentorship program</p>
+          <p class="lead g-font-weight-400 g-mr-20--md g-mb-15 g-mb-0--md">Learn from the best and become the best. Register for the upcomming event.</p>
         </div>
         <div class="align-self-md-center">
-          <a class="btn btn-lg u-btn-white text-uppercase g-font-weight-600 g-font-size-12" target="_blank" href="{{url('mentorship')}}">More Information</a>
+          <a class="btn btn-lg u-btn-white text-uppercase g-font-weight-600 g-font-size-12" target="_blank" href="{{url('/')}}">Register Now</a>
         </div>
       </div>
     </section>

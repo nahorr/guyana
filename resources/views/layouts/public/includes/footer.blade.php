@@ -8,7 +8,7 @@
               <h2 class="u-heading-v2__title h6 text-uppercase mb-0">About Us</h2>
             </div>
 
-            <p>Our Purpose at GosGem is to provide students with the opportunity to meet, interact and learn from our accomplished music minister and experienced instructors from the comfort of their homes.</p>
+            <p>Through our values we are positioned to deliver excellent customer service. Our customers’ satisfaction is our business; our customers are always right; our customers come first. We will always provide qualitative service and value for money to meet and exceed our customers' expectation.</p>
           </div>
           <!-- End Footer Content -->
 
@@ -55,31 +55,31 @@
               <ul class="list-unstyled g-mt-minus-10 mb-0">
                 <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
                   <h4 class="h6 g-pr-20 mb-0">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('about')}}">About Us</a>
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('/')}}">About Us</a>
                 <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
               </h4>
                 </li>
                 <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
                   <h4 class="h6 g-pr-20 mb-0">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('mentorship')}}">Mentorship</a>
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('/')}}">Mentorship</a>
                 <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
               </h4>
                 </li>
                 <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
                   <h4 class="h6 g-pr-20 mb-0">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('competition')}}">Competition</a>
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('/')}}">Competition</a>
                 <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
               </h4>
                 </li>
                 <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
                   <h4 class="h6 g-pr-20 mb-0">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('gallary')}}">Gallary</a>
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('/')}}">Gallary</a>
                 <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
               </h4>
                 </li>
                 <li class="g-pos-rel g-py-10">
                   <h4 class="h6 g-pr-20 mb-0">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('contact')}}">Contact Us</a>
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('/')}}">Contact Us</a>
                 <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
               </h4>
                 </li>
@@ -102,7 +102,7 @@
                 <i class="fa fa-map-marker"></i>
               </span>
             </div>
-            <p class="mb-0">Lagos, LOS 105102, Nigeria, <br> Calgary, AB T2R0N7, Canada</p>
+            <p class="mb-0">Marak Alliance, LLC <br> 2502 La Branch St. Houston, TX 77004.</p>
           </div>
           <!-- End Location -->
 
@@ -125,9 +125,9 @@
               </span>
             </div>
             <p class="mb-0">
-              <a class="g-color-white-opacity-0_8 g-color-white--hover" href="mailto:info@htmlstream.com">info@gosgem.com</a>
+              <a class="g-color-white-opacity-0_8 g-color-white--hover" href="mailto:info@htmlstream.com">info@guyana.localcontentworld.com</a>
               <br>
-              <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">www.gosgem.com</a>
+              <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">www.guyana.localcontentworld.com</a>
             </p>
           </div>
           <!-- End Email and Website -->

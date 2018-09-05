@@ -6,12 +6,12 @@
           <div class="row flex-column flex-md-row align-items-center justify-content-md-end text-uppercase g-font-weight-600 g-color-white g-font-size-13">
             <div class="col-auto mr-md-auto g-px-15">
               <i class="icon-communication-057 u-line-icon-pro g-font-size-20 g-valign-middle g-mr-1"></i>
-              <a href="{{url('gforum')}}">GForum</a>
+              <a href="{{url('forum')}}">Forum</a>
             </div>
 
             <div class="col-auto g-px-15">
               <i class="icon-communication-165 u-line-icon-pro g-font-size-20 g-valign-middle g-mr-1"></i>
-                <a href="https://courses.gosgem.com/" target="_blank">Gosgem Live</a>
+                <a href="https://live.localcontentworld.com/" target="_blank">Live Webcast</a>
             </div>
 
             <div class="col-auto g-px-15 text-center">
@@ -28,17 +28,17 @@
             <div class="col-auto g-px-15">
               <ul class="list-inline mb-0 g-mx-minus-3">
                 <li class="list-inline-item g-valign-middle g-mx-3">
-                  <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="https://www.facebook.com/Gosgem-474767262939625/" target="_blank">
+                  <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="https://www.facebook.com/" target="_blank">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li class="list-inline-item g-valign-middle g-mx-3">
-                  <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="https://twitter.com/GosGem" target="_blank">
+                  <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="https://twitter.com/" target="_blank">
                     <i class="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item g-valign-middle g-mx-3">
-                  <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="https://www.instagram.com/gosgem/" target="_blank">
+                  <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="https://www.instagram.com/" target="_blank">
                     <i class="fa fa-instagram"></i>
                   </a>
                 </li>
@@ -63,7 +63,7 @@
 
             <!-- Logo -->
             <a href="{{url('/')}}" class="navbar-brand d-flex">
-              <img id="logo" src="{{asset('unify/assets/img/logo/gosgem_logo.jpg')}}" alt="gospelgem">
+              <img id="logo" src="{{asset('unify/assets/img/logo/guyana_localcontent_logo.jpg')}}" alt="guyana_localcontent_logo">
             </a>
             <!-- End Logo -->
 
@@ -79,33 +79,41 @@
 
                 <!-- About -->
                 <li class="nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                  <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="{{url('about')}}" aria-haspopup="true" aria-expanded="false">What is Gosgem</a>
+                  <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="{{url('/')}}" aria-haspopup="true" aria-expanded="false">About</a>
+                </li>
+                <!-- End About -->
+
+                <!-- About -->
+                <li class="nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                  <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="{{url('/')}}" aria-haspopup="true" aria-expanded="false">Contact</a>
                 </li>
                 <!-- End About -->
                 
                 <!-- About -->
                 <li class="nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                  <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="{{url('mentorship')}}" aria-haspopup="true" aria-expanded="false">Mentorship Program</a>
+                  <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="{{url('/')}}" aria-haspopup="true" aria-expanded="false">Registration</a>
+                </li>
+                <!-- End About -->            
+
+                
+
+               <!-- About -->
+                <li class="nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                  <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="{{url('/')}}" aria-haspopup="true" aria-expanded="false">Agenda</a>
                 </li>
                 <!-- End About -->            
 
                 <!-- About -->
                 <li class="nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                  <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="{{url('contact')}}" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+                  <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="{{url('/')}}" aria-haspopup="true" aria-expanded="false">speakers</a>
                 </li>
                 <!-- End About -->
 
-                <!-- GForum -->
+                <!-- About -->
                 <li class="nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                  <a class="btn btn-md u-btn-outline-indigo g-mr-10 g-mb-15" href="{{url('gforum')}}">GForum</a>
+                  <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="{{url('/')}}" aria-haspopup="true" aria-expanded="false">Sponsor</a>
                 </li>
-                <!-- End GForum -->
-
-                <!-- Gosgem Live -->
-                <li class="nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                  <a class="btn u-btn-outline-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="https://courses.gosgem.com/" target="_blank">Gosgem Live</a>
-                </li>
-                <!-- End Gosgem live -->
+                <!-- End About -->
 
               </ul>
             </div>
