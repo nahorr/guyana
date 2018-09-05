@@ -20,7 +20,7 @@
                  It's a Beautiful Day. Welcome - {{\Auth::user()->name}}
                 <a href="{{url('home')}}" class="btn btn-sm u-btn-deeporange">Dashboard</a>
               @else
-                <a href="{{url('login')}}" class="btn btn-sm u-btn-orange">Login/Register</a>
+                <a href="{{url('/')}}" class="btn btn-sm u-btn-orange">Login/Register</a>
               @endif
               
             </div>
