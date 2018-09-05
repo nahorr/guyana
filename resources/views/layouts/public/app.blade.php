@@ -83,6 +83,10 @@
   <!-- for google reCaptcha -->
   <script src='https://www.google.com/recaptcha/api.js'></script>
 
+  <!-- Master Slider -->
+    <link rel="stylesheet" href="{{asset('unify/assets/vendor/master-slider/source/assets/css/masterslider.main.css')}}">
+    <link rel="stylesheet" href="{{asset('unify/assets/css/master-slider-style.css')}}">
+
   
 
   
@@ -152,6 +156,9 @@
   <script src="{{asset('unify/assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
   <script src="{{asset('unify/assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
   <script src="{{asset('unify/assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
+
+  <!-- JS Master Slider -->
+  <script src="{{asset('unify/assets/vendor/master-slider/source/assets/js/masterslider.min.js')}}"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -373,6 +380,22 @@
           secondsElSelector: '.js-cd-seconds'
         });
       });
+
+    var slider = new MasterSlider();
+
+    slider.control('arrows');
+    slider.control('timebar', {insertTo: '#masterslider'});
+    slider.control('bullets');
+    slider.setup('masterslider', {
+      width: 1400,
+      height: 580,
+      space: 1,
+      layout: 'fullwidth',
+      loop: true,
+      preload: 0,
+      instantStartLayers: true,
+      autoplay: true
+    });
 
   </script>
 
