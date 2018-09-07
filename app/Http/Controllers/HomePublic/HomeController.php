@@ -23,9 +23,9 @@ class HomeController extends Controller
     {
     	return view('public-views.about');
     }
-    public function competition()
+    public function speakers()
     {
-    	return view('public-views.competition');
+    	return view('public-views.speakers');
     }
     public function mentorship()
     {

@@ -18,7 +18,7 @@ Route::get('/user/verify/{token}', 'Auth\RegisterController@verifyUser');
 //Public Area
 	Route::get('/', 'HomePublic\HomeController@index')->name('homepublic');
 	Route::get('/about', 'HomePublic\HomeController@about')->name('about');
-	Route::get('/competition', 'HomePublic\HomeController@competition')->name('competition');
+	Route::get('/speakers', 'HomePublic\HomeController@speakers');
 	Route::get('/mentorship', 'HomePublic\HomeController@mentorship')->name('mentorship');
 	Route::get('/contact', 'HomePublic\HomeController@contact')->name('contact');
 	Route::post('/postcontact', 'HomePublic\HomeController@postContact')->name('postcontact');
