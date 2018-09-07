@@ -125,6 +125,7 @@
   <script src="{{asset('unify/assets/js/components/hs.countdown.js')}}"></script>
   <script src="{{asset('unify/assets/js/components/hs.header.js')}}"></script>
   <script src="{{asset('unify/assets/js/helpers/hs.hamburgers.js')}}"></script>
+  <script src="{{asset('unify/assets/js/components/hs.dropdown.js')}}"></script>
   <script src="{{asset('unify/assets/js/components/hs.scroll-nav.js')}}"></script>
   <script src="{{asset('unify/assets/js/components/hs.tabs.js')}}"></script>
   <script src="{{asset('unify/assets/js/components/gmap/hs.map.js')}}"></script>
@@ -132,6 +133,7 @@
   <script src="{{asset('unify/assets/js/components/hs.progress-bar.js')}}"></script>
   <script src="{{asset('unify/assets/js/helpers/hs.bg-video.js')}}"></script>
   <script src="{{asset('unify/assets/js/components/hs.onscroll-animation.js')}}"></script>
+  <script src="{{asset('unify/assets/js/components/hs.sticky-block.js')}}"></script>
   <script src="{{asset('unify/assets/js/helpers/hs.height-calc.js')}}"></script>
   <script src="{{asset('unify/assets/js/components/hs.popup.js')}}"></script>
   <script src="{{asset('unify/assets/js/components/hs.go-to.js')}}"></script>
@@ -252,6 +254,13 @@
       });
     });
 
+    $(window).on('load', function () {
+            // initialization of sticky blocks
+            setTimeout(function() { // important in this case
+              $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
+            }, 1);
+          });
+    
     var tpj = jQuery;
 
     var revapi486;
