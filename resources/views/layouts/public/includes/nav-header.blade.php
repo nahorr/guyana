@@ -17,12 +17,12 @@
                 <div class="col-auto g-px-15">
                   <ul class="list-inline mb-0 g-mx-minus-3">
                     <li class="list-inline-item g-valign-middle g-mx-3">
-                      <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="#!">
+                      <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="https://www.facebook.com/guyanalocalcontent/" target="_blank">
                         <i class="fa fa-facebook"></i>
                       </a>
                     </li>
                     <li class="list-inline-item g-valign-middle g-mx-3">
-                      <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="#!">
+                      <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="https://twitter.com/MarakConsulting" target="_blank">
                         <i class="fa fa-twitter"></i>
                       </a>
                     </li>
@@ -39,7 +39,7 @@
               <!-- Language -->
               <div class="col-4 col-md-2">
                 <a class="g-color-secondary-dark-v1 g-color-primary--hover g-text-underline--none--hover" href="#!">
-                  <i class="fa fa-phone g-valign-middle g-mr-5"></i>8324047429
+                  <i class="fa fa-phone g-valign-middle g-mr-5"></i>+1 832 404 7429
                 </a>
               </div>
               <!-- End Language -->
@@ -140,7 +140,7 @@
                   <!-- End Home -->
                   <!-- Home -->
                   <li class="nav-item g-mr-10--lg g-mr-20--xl">
-                    <a id="nav-link--home" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="{{url('agenda')}}">
+                    <a id="nav-link--home" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="{{asset('agenda/localcontent_guyana_2018_agenda.pdf')}}" target="_blank">
                       Agenda
                     </a>
 
