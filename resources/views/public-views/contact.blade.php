@@ -72,7 +72,30 @@
           </div>
           
         </div>
+
       </div>
+
+    </div>
+  </section>
+
+  <section class="dzsparallaxer auto-init height-is-based-on-content use-loading" data-options="{direction: 'reverse', settings_mode_oneelement_max_offset: '150'}">
+    <div class="divimage dzsparallaxer--target w-100 g-bg-repeat" style="height: 200%; background-image: url(/unify/assets/img/bg/pattern4.png)"></div>
+
+    <div class="container text-center g-py-50--md g-py-20">
+      <h2 class="h2 text-uppercase g-font-weight-300">Enquires from within Guyana:</h2>
+      <p class="lead g-px-100--md g-mb-2">Email: <a href="mailto:execoffice@goga.gy"> execoffice@goga.gy</a></p>
+      <p class="lead g-px-100--md g-mb-2">Address: 189 Charlotte Street, Lacytown, Georgetown, Guyana, South America.</p>
+      <p class="lead g-px-100--md g-mb-2"><a href="https://www.localcontentotc2018.com"> Website: www.goga.gy</a></p>
+      
+    </div>
+
+    <div class="container text-center g-py-50--md g-py-20">
+      <h2 class="h2 text-uppercase g-font-weight-300">International Enquiries:</h2>
+      <p class="lead g-px-100--md g-mb-2">Email: info@marakconsulting.com</p>
+      <p class="lead g-px-100--md g-mb-2">Address: 917 85th St SW, Calgary AB T3H 5Z9</p>
+      <p class="lead g-px-100--md g-mb-2">Website: <a href="https://www.localcontentotc2018.com"> https://www.localcontentotc2018.com </a></p>
+      <p class="lead g-px-100--md g-mb-2">Website: <a href="https://www.marakconsulting.com"> https://www.marakconsulting.com </a> </p>
+      
     </div>
   </section>
  
