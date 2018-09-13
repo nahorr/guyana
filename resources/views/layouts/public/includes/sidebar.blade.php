@@ -32,8 +32,8 @@
 
                     <ul class="list-unstyled mb-0">
                       <li class="d-flex align-items-center justify-content-between g-mb-20">
-                        <a class="d-flex align-items-center u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="https://www.facebook.com/guyanalocalcontent/">
-                          <span class="u-icon-v3 u-icon-size--xs u-shadow-v25 g-font-size-12 g-bg-facebook g-bg-facebook--hover g-color-white rounded-circle g-mr-10" href="https://www.facebook.com/guyanalocalcontent/" target="_blank">
+                        <a class="d-flex align-items-center u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="https://www.facebook.com/oilandgasgy/" target="_blank">
+                          <span class="u-icon-v3 u-icon-size--xs u-shadow-v25 g-font-size-12 g-bg-facebook g-bg-facebook--hover g-color-white rounded-circle g-mr-10" href="https://www.facebook.com/oilandgasgy/" target="_blank">
                             <i class="fa fa-facebook"></i>
                           </span>
                           Like us on Facebook
@@ -43,8 +43,8 @@
                       
                    
                       <li class="d-flex align-items-center justify-content-between g-mb-20">
-                        <a class="d-flex align-items-center u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="https://twitter.com/MarakConsulting">
-                          <span class="u-icon-v3 u-icon-size--xs u-shadow-v25 g-font-size-12 g-bg-twitter g-bg-twitter--hover g-color-white rounded-circle g-mr-10" href="https://twitter.com/MarakConsulting" target="_blank">
+                        <a class="d-flex align-items-center u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="https://twitter.com/OilandGasGY" target="_blank">
+                          <span class="u-icon-v3 u-icon-size--xs u-shadow-v25 g-font-size-12 g-bg-twitter g-bg-twitter--hover g-color-white rounded-circle g-mr-10" href="https://twitter.com/OilandGasGY" target="_blank">
                             <i class="fa fa-twitter"></i>
                           </span>
                           Follow us on Twitter
@@ -53,7 +53,7 @@
                       </li>
 
                       <li class="d-flex align-items-center justify-content-between">
-                        <a class="d-flex align-items-center u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href=" https://www.instagram.com/oilandgasgy/">
+                        <a class="d-flex align-items-center u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href=" https://www.instagram.com/oilandgasgy/" target="_blank">
                           <span class="u-icon-v3 u-icon-size--xs u-shadow-v25 g-font-size-12 g-bg-instagram g-bg-instagram--hover g-color-white rounded-circle g-mr-10" href=" https://www.instagram.com/oilandgasgy/" target="_blank">
                             <i class="fa fa-instagram"></i>
                           </span>
