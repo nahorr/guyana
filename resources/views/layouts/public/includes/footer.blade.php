@@ -98,7 +98,7 @@
                 <i class="fa fa-phone"></i>
               </span>
             </div>
-            <p class="mb-0">+23414543236 <br> +14034022387</p>
+            <p class="mb-0">+18324047429</p>
           </div>
           <!-- End Phone -->
 
@@ -110,7 +110,7 @@
               </span>
             </div>
             <p class="mb-0">
-              <a class="g-color-white-opacity-0_8 g-color-white--hover" href="mailto:info@htmlstream.com">info@guyana.localcontentworld.com</a>
+              <a class="g-color-white-opacity-0_8 g-color-white--hover" href="mailto:info@htmlstream.com"> execoffice@goga.gy</a>
               <br>
               <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">www.guyana.localcontentworld.com</a>
             </p>
@@ -143,17 +143,21 @@
           <div class="col-md-4 align-self-center">
             <ul class="list-inline text-center text-md-right mb-0">
               <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Facebook">
-                <a href="https://www.facebook.com/guyanalocalcontent/" target="_blank" class="g-color-white-opacity-0_5 g-color-white--hover">
+                <a href="https://www.facebook.com/oilandgasgy/" target="_blank" class="g-color-white-opacity-0_5 g-color-white--hover">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
               
               <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Twitter">
-                <a href="https://twitter.com/MarakConsulting" target="_blank" class="g-color-white-opacity-0_5 g-color-white--hover">
+                <a href="https://twitter.com/OilandGasGY" target="_blank" class="g-color-white-opacity-0_5 g-color-white--hover">
                   <i class="fa fa-twitter"></i>
                 </a>
               </li>
-              
+              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Twitter">
+                <a href="https://www.instagram.com/oilandgasgy/" target="_blank" class="g-color-white-opacity-0_5 g-color-white--hover">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>

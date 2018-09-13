@@ -5,7 +5,7 @@
           <div class="container">
             <div class="row align-items-center">
               <!-- Logo -->
-              <div class="col-md-5">
+              <div class="col-md-4">
                 <a href="{{url('/')}}" class="navbar-brand">
                   <img src="{{asset('unify/assets/img/logo/guyana_localcontent_logo.jpg')}}" alt="Logo">
                 </a>
@@ -13,20 +13,24 @@
               <!-- End Logo -->
 
               <!-- Subscribe Form -->
-               <div class="col-6 col-md-3">
+               <div class="col-2 col-md-2">
                 <div class="col-auto g-px-15">
                   <ul class="list-inline mb-0 g-mx-minus-3">
                     <li class="list-inline-item g-valign-middle g-mx-3">
-                      <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="https://www.facebook.com/guyanalocalcontent/" target="_blank">
+                      <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="https://www.facebook.com/oilandgasgy/" target="_blank">
                         <i class="fa fa-facebook"></i>
                       </a>
                     </li>
                     <li class="list-inline-item g-valign-middle g-mx-3">
-                      <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="https://twitter.com/MarakConsulting" target="_blank">
+                      <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="https://twitter.com/OilandGasGY" target="_blank">
                         <i class="fa fa-twitter"></i>
                       </a>
                     </li>
-                    
+                    <li class="list-inline-item g-valign-middle g-mx-3">
+                      <a class="d-block u-icon-v3 u-icon-size--xs g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-gray-dark-v1--hover g-text-underline--none--hover" href="https://www.instagram.com/oilandgasgy/" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -42,21 +46,15 @@
 
 
               <!-- Account -->
-              <div class="col-2 col-md-2">
+              <div class="col-6 col-md-4">
 
-              @if(Auth::check())
-                <a class="media align-items-center float-right g-text-underline--none--hover" href="#!">
-                  <div class="d-flex g-width-30 g-height-30 mr-2">
-                    <img class="img-fluid rounded-circle" src="{{asset('unify/assets/img-temp/100x100/img11.jpg')}}" alt="Image Description">
-                  </div>
-                  <div class="media-body">
-                    <span class="d-block g-hidden-sm-down g-color-main g-font-weight-600 g-font-size-13">Dashboard</span>
-                  </div>
-                </a>
+                @if(Auth::check())
+                  <i class="fa fa-user g-valign-middle g-mr-5"></i>{{\Auth::user()->name}}
+                
                 @else
-                <div class="">
-                  <a class="btn btn-sm u-btn-orange media align-items-center float-left g-text-underline--none--hover" href="#!">Login/Register</a>
-                </div>
+                  <div class="">
+                    <a class="btn btn-sm u-btn-orange media align-items-center float-left g-text-underline--none--hover" href="{{url('login')}}">Login/Register</a>
+                  </div>
                 @endif
 
               </div>
@@ -164,6 +162,13 @@
                       Exhibit
                     </a>
 
+                  </li>
+                  <li class="nav-item g-mr-10--lg g-mr-20--xl">
+                    @if(Auth::check())
+                                       
+                      <a id="nav-link--home" class="btn btn-sm u-btn-darkpurple media align-items-center float-left g-text-underline--none--hover" href="{{url('home')}}">Dashboard</a>
+                   
+                      @endif
                   </li>
                   <!-- End Home -->
                 

@@ -44,7 +44,7 @@ class ContactFormSubmitted extends Notification
     {
         return (new MailMessage)
                     ->line('Hello. '.$this->contact_form_notification)
-                    ->action('Gosgem', 'https://gosgem.com/login')
+                    ->action('Guyana', 'https://guyana.localcontentworld.com/admin/contactform/submissions')
                     ->line('Please use the link above to login and view the message.');
     }
 

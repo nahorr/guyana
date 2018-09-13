@@ -68,7 +68,7 @@
           <div class="g-mb-30">
 
             <h3 class="g-color-primary g-font-weight-600 g-font-size-12 text-uppercase"><i class="g-color-primary g-font-size-20 icon-communication-062 u-line-icon-pro"></i> Email</h3>
-            <span class="g-color-white g-font-size-20">info@marakconsulting.com</span>
+            <span class="g-color-white g-font-size-20"> execoffice@goga.gy</span>
           </div>
           
         </div>

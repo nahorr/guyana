@@ -87,18 +87,18 @@
           <div class="media">
             <div class="d-flex g-mr-15">
               <div class="u-header-dropdown-icon-v1 g-pos-rel g-width-60 g-height-60 g-bg-lightred-v2 g-font-size-18 g-font-size-24--md g-color-white rounded-circle">
-                <a href="{{url('gforum')}}"><span style="color: white;"><i class="hs-admin-home g-absolute-centered"></i></span></a>
+                <a href="{{url('/')}}"><span style="color: white;"><i class="hs-admin-home g-absolute-centered"></i></span></a>
               </div>
             </div>
-            <a href="{{url('gforum')}}">
+            <a href="{{url('/')}}">
               <span style="color: darkgreen;">
               <div class="media-body align-self-center">
                 <div class="d-flex align-items-center g-mb-5">
-                  <span class="g-font-size-24 g-line-height-1 g-color-black">Visit GForum Home</span>
+                  <span class="g-font-size-24 g-line-height-1 g-color-black">Visit Home Page</span>
                
                 </div>
 
-                <h6 class="g-font-size-16 g-font-weight-300 g-color-gray-dark-v6 mb-0">GForum {{\App\Post::count()}} posts and counting...</h6>
+                <h6 class="g-font-size-16 g-font-weight-300 g-color-gray-dark-v6 mb-0">Localcontent Guyana</h6>
               </div>
               </span>
             </a>

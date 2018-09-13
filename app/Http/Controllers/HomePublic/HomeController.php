@@ -10,6 +10,7 @@ use App\ContactUs;
 use Notification;
 use App\Notifications\ContactFormSubmitted;
 use App\User;
+use App\Mail\contactMail;
 
 class HomeController extends Controller
 {
@@ -73,12 +74,14 @@ class HomeController extends Controller
         ]);
 
         $user = User::where('is_admin', '=', 1)->first();
+
+        Mail::to($user->email)->send(new contactMail($contact_us));
  
         $user->notify(new ContactFormSubmitted("A new contact form has been submitted."));
 
-       flash('Your message was sent successfully. We will be contacting you soon!')->success();
+        flash('Your message was sent successfully. We will be contacting you soon!')->success();
       
-       return back();  
+        return back();  
     }
 
     public function comingSoon()
