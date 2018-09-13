@@ -1,31 +1,25 @@
-<!-- Promo Block -->
+<!--Promo Block -->
     <section class="g-pos-rel">
-      <div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll" data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}'>
-        <div class="divimage dzsparallaxer--target w-100 g-bg-cover g-bg-pos-top-center g-bg-img-hero g-bg-bluegray-opacity-0_2--after" style="height: 130%; background-image: url(/unify/assets/img-temp/1920x700/img3.jpg);"></div>
+      
+    <!-- Alert Info -->
+        <div class="alert fade show g-bg-blue-opacity-0_1 g-color-blue rounded-0" role="alert">
+          <button type="button" class="close u-alert-close--light g-ml-10 g-mt-1" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
 
-        <div class="container g-bg-cover__inner g-py-100">
-          <div class="row align-items-center">
-            <div class="col-lg-6 g-mb-30 g-mb-0--lg">
-              <h2 class="h1 text-uppercase g-color-white g-mb-30">
-                  <span class="g-bg-primary-dark-v3 g-px-5">Localcontent Guyana</span><br>
-                  <span class="g-bg-primary-dark-v3 g-px-5">Fully Responsive</span><br>
-                  <span class="g-bg-primary-dark-v3 g-px-5">Design</span>
-                </h2>
-              <!-- <h3 class="h4 g-color-white">
-                  <span class="g-bg-black-opacity-0_6 g-px-5">Start a new project with easy</span><br>
-                  <span class="g-bg-black-opacity-0_6 g-px-5">to use 1610+ Reusable</span><br>
-                  <span class="g-bg-black-opacity-0_6 g-px-5">UI Components</span>
-                </h3> -->
-            </div>
-            <div class="col-lg-6">
-              <!-- Vimeo Example -->
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="//player.vimeo.com/video/47911018" width="530" height="300" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+          <div class="media">
+            
+            <div class="media-body text-center">
+              <div class="">
+                <span class="u-icon-v3 u-icon-size--sm g-bg-red g-color-white g-rounded-50x">
+                  <i class="icon-info"></i>
+                </span>
               </div>
-              <!-- End Vimeo Example -->
+              <p class="m-0" style="font-size: 20px;"><strong>IMPORTANT UPDATE!</strong> <br>Conference will now hold on 04 – 05 December 2018.</p>
+              
             </div>
           </div>
         </div>
-      </div>
+        <!-- End Alert Info -->
     </section>
-    <!-- End Promo Block -->
+<!-- End Promo Block

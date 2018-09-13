@@ -4,7 +4,7 @@
 
    @include('layouts.public.includes.nav-header')
 
- {{-- @include('layouts.public.includes.header') --}} 
+ @include('layouts.public.includes.header')
 
   <!-- Promo Block -->
         <section class="g-py-50">
