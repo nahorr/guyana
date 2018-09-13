@@ -7,7 +7,7 @@
 
 <head>
   <!-- Title -->
-  <title>Gosgem Admin | Dashboard </title>
+  <title>Guyana Admin | Dashboard </title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">

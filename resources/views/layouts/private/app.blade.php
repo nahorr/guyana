@@ -4,7 +4,7 @@
 
 <head>
   <!-- Title -->
-  <title> GosGem | User Dashboard</title>
+  <title> Guyana | User Dashboard</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
