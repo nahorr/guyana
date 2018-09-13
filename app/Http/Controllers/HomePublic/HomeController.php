@@ -11,6 +11,7 @@ use Notification;
 use App\Notifications\ContactFormSubmitted;
 use App\User;
 use App\Mail\contactMail;
+use Mail;
 
 class HomeController extends Controller
 {
