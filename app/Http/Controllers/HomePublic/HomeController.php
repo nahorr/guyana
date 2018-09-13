@@ -76,7 +76,7 @@ class HomeController extends Controller
 
         $user = User::where('is_admin', '=', 1)->first();
 
-        Mail::to($user->email)->send(new ContactUs($contact_us));
+        //Mail::to($user->email)->send(new ContactUs($contact_us));
  
         $user->notify(new ContactFormSubmitted("A new contact form has been submitted."));
 
