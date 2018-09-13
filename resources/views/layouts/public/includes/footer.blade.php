@@ -20,28 +20,23 @@
 
             <article>
               <h3 class="h6 g-mb-2">
-            <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">Incredible template</a>
+            <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{asset('press-release/press_release.jpg')}}" target="_blank">Press Release</a>
           </h3>
-              <div class="small g-color-white-opacity-0_6">May 8, 2017</div>
+              
             </article>
 
             <hr class="g-brd-white-opacity-0_1 g-my-10">
 
             <article>
               <h3 class="h6 g-mb-2">
-            <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">New features</a>
+            <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{asset('agenda/localcontent_guyana_2018_agenda.pdf')}}" target="_blank">Agenda</a>
           </h3>
-              <div class="small g-color-white-opacity-0_6">June 23, 2017</div>
+              
             </article>
 
             <hr class="g-brd-white-opacity-0_1 g-my-10">
 
-            <article>
-              <h3 class="h6 g-mb-2">
-            <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">New terms and conditions</a>
-          </h3>
-              <div class="small g-color-white-opacity-0_6">September 15, 2017</div>
-            </article>
+            
           </div>
           <!-- End Footer Content -->
 
@@ -53,33 +48,23 @@
 
             <nav class="text-uppercase1">
               <ul class="list-unstyled g-mt-minus-10 mb-0">
+                
                 <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
                   <h4 class="h6 g-pr-20 mb-0">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('/')}}">About Us</a>
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('contact')}}"">Contact</a>
                 <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
               </h4>
                 </li>
+                
                 <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
                   <h4 class="h6 g-pr-20 mb-0">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('/')}}">Mentorship</a>
-                <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
-              </h4>
-                </li>
-                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
-                  <h4 class="h6 g-pr-20 mb-0">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('/')}}">Competition</a>
-                <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
-              </h4>
-                </li>
-                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
-                  <h4 class="h6 g-pr-20 mb-0">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('/')}}">Gallary</a>
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('sponsors')}}">Sponsors</a>
                 <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
               </h4>
                 </li>
                 <li class="g-pos-rel g-py-10">
                   <h4 class="h6 g-pr-20 mb-0">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('/')}}">Contact Us</a>
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{url('exhibit')}}">Exhibit</a>
                 <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
               </h4>
                 </li>
@@ -148,20 +133,9 @@
               <small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">2018 &copy; All Rights Reserved.</small>
               <ul class="u-list-inline">
                 <li class="list-inline-item">
-                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">Privacy Policy</a>
+                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">Marak Alliance, <span class="g-color-primary">LLC</span></a>
                 </li>
-                <li class="list-inline-item">
-                  <span>|</span>
-                </li>
-                <li class="list-inline-item">
-                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">Terms of Use</a>
-                </li>
-                <li class="list-inline-item">
-                  <span>|</span>
-                </li>
-                <li class="list-inline-item">
-                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">Support</a>
-                </li>
+                
               </ul>
             </div>
           </div>
@@ -169,35 +143,17 @@
           <div class="col-md-4 align-self-center">
             <ul class="list-inline text-center text-md-right mb-0">
               <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Facebook">
-                <a href="#!" class="g-color-white-opacity-0_5 g-color-white--hover">
+                <a href="https://www.facebook.com/guyanalocalcontent/" target="_blank" class="g-color-white-opacity-0_5 g-color-white--hover">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
-              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Skype">
-                <a href="#!" class="g-color-white-opacity-0_5 g-color-white--hover">
-                  <i class="fa fa-skype"></i>
-                </a>
-              </li>
-              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Linkedin">
-                <a href="#!" class="g-color-white-opacity-0_5 g-color-white--hover">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Pinterest">
-                <a href="#!" class="g-color-white-opacity-0_5 g-color-white--hover">
-                  <i class="fa fa-pinterest"></i>
-                </a>
-              </li>
+              
               <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Twitter">
-                <a href="#!" class="g-color-white-opacity-0_5 g-color-white--hover">
+                <a href="https://twitter.com/MarakConsulting" target="_blank" class="g-color-white-opacity-0_5 g-color-white--hover">
                   <i class="fa fa-twitter"></i>
                 </a>
               </li>
-              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Dribbble">
-                <a href="#!" class="g-color-white-opacity-0_5 g-color-white--hover">
-                  <i class="fa fa-dribbble"></i>
-                </a>
-              </li>
+              
             </ul>
           </div>
         </div>

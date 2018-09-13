@@ -72,17 +72,17 @@
                 <!-- Breaking News -->
                 <div class="g-mb-60">
                   <div class="u-heading-v3-1 g-mb-30">
-                    <h2 class="h5 u-heading-v3__title g-font-primary g-font-weight-700 g-color-gray-dark-v1 text-uppercase g-brd-primary">Why Sponsor</h2>
+                    <h2 class="h5 u-heading-v3__title g-font-primary g-font-weight-700 g-color-gray-dark-v1 text-uppercase g-brd-primary">Why Exhibit?</h2>
                   </div>
 
                   <div class="row g-mb-30">
                     <!-- Article Image -->
                     <div class="col-md-5">
                       <figure class="u-shadow-v25 g-pos-rel g-mb-20 g-mb-0--lg">
-                        <img class="img-fluid w-100" src="{{asset('unify/assets/img/sponsors/sponsors_guyana.jpg')}}" alt="sponsors guyana">
+                        <img class="img-fluid w-100" src="{{asset('unify/assets/img/exhibit/exhibit_guyana.png')}}" alt="exhibit guyana">
 
                         <figcaption class="g-pos-abs g-top-20 g-left-20">
-                          <a class="btn btn-xs u-btn-blue text-uppercase rounded-0" href="#!">Sponsors</a>
+                          <a class="btn btn-xs u-btn-pink text-uppercase rounded-0" href="#!">Exhibit</a>
                         </figcaption>
                       </figure>
                     </div>
@@ -91,53 +91,57 @@
                     <!-- Article Content -->
                     <div class="col-md-7 align-self-center">
                       <h3 class="h4 g-mb-15">
-                        <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="#!">Why Sponsor:</a>
+                        <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="#!">Why Exhibit?:</a>
                       </h3>
 
                       <div class="col-lg">
-                      <ul class="list-unstyled g-mb-12 g-mb-0--md">
-                        <li class="d-flex align-items-center g-mb-12">
-                          <i class="icon-check d-block g-color-primary g-mr-8"></i>
-                          <span class="d-block">Publicize your company as a local content proponent in Guyana</span>
-                        </li>
-                        <li class="d-flex align-items-center g-mb-12">
-                          <i class="icon-check d-block g-color-primary g-mr-8"></i>
-                          <span class="d-block">Make history by identifying with the first ever local content conference in Guyana</span>
-                        </li>
-                        <li class="d-flex align-items-center g-mb-12">
-                          <i class="icon-check d-block g-color-primary g-mr-8"></i>
-                          <span class="d-block">Improve your local content CSR profile to the Guyanese public</span>
-                        </li>
-                        <li class="d-flex align-items-center g-mb-12">
-                          <i class="icon-check d-block g-color-primary g-mr-8"></i>
-                          <span class="d-block">Demonstrate sustainable local content commitment in Guyana</span>
-                        </li>
-                       
-                      </ul>
-                    </div>
-
+                        <ul class="list-unstyled g-mb-12 g-mb-0--md">
+                          <li class="d-flex align-items-center g-mb-12">
+                            <i class="icon-check d-block g-color-primary g-mr-8"></i>
+                            <span class="d-block">Connect with local and international businesses to improve your networking opportunities</span>
+                          </li>
+                          <li class="d-flex align-items-center g-mb-12">
+                            <i class="icon-check d-block g-color-primary g-mr-8"></i>
+                            <span class="d-block">As a local company, showcase your capabilities to deliver efficient and quality driven services to oil/gas and mining companies</span>
+                          </li>
+                          <li class="d-flex align-items-center g-mb-12">
+                            <i class="icon-check d-block g-color-primary g-mr-8"></i>
+                            <span class="d-block">Make your local content value statement and commitment to sustainable development</span>
+                          </li>
+                          <li class="d-flex align-items-center g-mb-12">
+                            <i class="icon-check d-block g-color-primary g-mr-8"></i>
+                            <span class="d-block">Improve the contents of your corporate social responsibility in your Annual Report through participation in the first Guyana Local Content Conference</span>
+                          </li>
+                          <li class="d-flex align-items-center g-mb-12">
+                            <i class="icon-check d-block g-color-primary g-mr-8"></i>
+                            <span class="d-block">Direct marketing and advertising to target audiences that could increase business conversion rates</span>
+                          </li>
+                          
+                        </ul>
+                      </div>
+                      
                   </div>
                     <!-- End Article Content -->
                   </div>
                 </div>
                 <!-- End Breaking News -->
 
-              <hr>
+                <hr>
 
-              <div class="row">
+                <div class="row">
 
-                <!-- Example Button -->
-                <a href="{{url('contact')}}" class="btn btn-xl u-btn-blue u-btn-hover-v2-2 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15">
-                  <span class="pull-left text-left">
-                    Contact us
-                    <span class="d-block g-font-size-11">Contact Us for Sponsorship Details</span>
-                  </span>
-                  <i class="fa fa-handshake-o float-right g-font-size-42 g-ml-15"></i>
-                </a>
-                <!-- End Example Button -->
-                  
-              </div>
-                
+                  <!-- Example Button -->
+                  <a href="{{url('contact')}}" class="btn btn-xl u-btn-pink u-btn-hover-v2-2 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15">
+                    <span class="pull-left text-left">
+                      Contact us
+                      <span class="d-block g-font-size-11">Contact us to reserve your exhibition space!</span>
+                    </span>
+                    <i class="fa fa-thumbs-up float-right g-font-size-42 g-ml-15"></i>
+                  </a>
+                  <!-- End Example Button -->
+                    
+                </div>
+      
 
                 <div id="stickyblock-end"></div>
               </div>

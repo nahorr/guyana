@@ -31,10 +31,13 @@ class HomeController extends Controller
     {
     	return view('public-views.registration');
     }
-
     public function sponsors()
     {
         return view('public-views.sponsors');
+    }
+    public function exhibit()
+    {
+        return view('public-views.exhibit');
     }
     public function contact()
     {
