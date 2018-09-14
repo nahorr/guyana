@@ -13,9 +13,9 @@
             <div class="row no-gutters">
               <div class="col-lg-6 g-pr-1--lg g-mb-30 g-mb-2--lg">
                 <!-- Article -->
-                <article class="">
-                  <figure class="">
-                    <img class="img-fluid" src="{{asset('unify/assets/img/welcome/guyanese_flag.png')}}" alt="guyanese flag">
+                <article class="u-block-hover">
+                  <figure class="u-shadow-v25 g-bg-cover g-bg-white-gradient-opacity-v1--after">
+                    <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="{{asset('unify/assets/img/welcome/guyanese_flag.jpg')}}" alt="guyanese flag">
                   </figure>
 
                   <span class="g-hidden-xs-down g-pos-abs g-top-30 g-left-30">
