@@ -74,7 +74,7 @@
                     <h2 class="h5 u-heading-v3__title g-font-primary g-font-weight-700 g-color-gray-dark-v1 text-uppercase g-brd-primary">Press Release</h2>
                   </div>
 
-                  <div class="row">
+                  <div class="col-md-12">
                     <!-- Article (Leftside) -->
                     
 
