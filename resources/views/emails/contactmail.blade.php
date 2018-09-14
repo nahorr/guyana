@@ -6,13 +6,12 @@
 </head>
 <body>
 
-	<h4>{{contact_us->full_name}} sent you an email</h4>
+	<h4>{{$contactus->full_name}} sent you an email </h4>
 	<br/>
-		<p>Name: {{contact_us->full_name}}</p>
-		<p>Name: {{contact_us->phone}}</p>
-		<p>Name: {{contact_us->email}}</p>
-		<p>Name: {{contact_us->message_subject}}</p>
-		<p>Name: {{contact_us->message}}</p>
-		<p>Name: {{contact_us->created_at}}</p>
+		<p>Name: {{$contactus->phone}}</p>
+		<p>Email: {{$contactus->email}}</p>
+		<p>Subject: {{$contactus->message_subject}}</p>
+		<p>Message: {{$contactus->message}}</p>
+		<p>Date: {{$contactus->created_at}}</p>
 </body>
 </html>

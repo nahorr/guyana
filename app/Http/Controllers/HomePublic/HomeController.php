@@ -12,6 +12,7 @@ use App\Notifications\ContactFormSubmitted;
 use App\User;
 use App\Mail\contactMail;
 use Mail;
+use Carbon\Carbon;
 
 class HomeController extends Controller
 {
@@ -64,7 +65,7 @@ class HomeController extends Controller
          'captcha.min' => 'Wrong captcha, please try again.'
         ]);
 
-        $contact_us = ContactUs::insert([
+        $contactus = ContactUs::insert([
         'full_name'=>$request->full_name,
         'phone'=>$request->phone,
         'email'=>$request->email,
@@ -76,13 +77,32 @@ class HomeController extends Controller
 
         $user = User::where('is_admin', '=', 1)->first();
 
-        //Mail::to($user->email)->send(new ContactUs($contact_us));
- 
         $user->notify(new ContactFormSubmitted("A new contact form has been submitted."));
+
+        //Mail::to($user->email)->send(new ContactUs($contact_us));
+        /*Mail::send('emails.contactmail',
+               array(
+                   'full_name' => $request->get('full_name'),
+                   'phone' => $request->get('phone'),
+                   'email' => $request->get('email'),
+                   'message_subject' => $request->get('message_subject'),
+                   'message' => $request->get('message'),
+                   'created_at' => Carbon::now()
+               ), function($contactmessage) use($request)
+           {
+               $contactmessage->from($request->email);
+               $message->to('nahorr@gmail.com', 'Admin')->subject('Contact Form');
+           });
+       */
 
         flash('Your message was sent successfully. We will be contacting you soon!')->success();
       
         return back();  
+    }
+
+    public function contactMail()
+    {
+        return view('public-views.contact');
     }
 
     public function comingSoon()

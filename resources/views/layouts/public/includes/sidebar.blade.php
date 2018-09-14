@@ -7,11 +7,12 @@
                   <div class="u-bg-overlay__inner text-center">
                     <div class="g-mb-40">
                       <h2 class="g-color-white">First Guyanese Oil and Gas Local Content Conference</h2>
-                      <p class="g-color-white-opacity-0_8">Date<br>Nov 26 – 27 2018</p>
+                      <p class="g-color-white-opacity-0_8">Date<br>Dec 04 - 05 2018</p>
                     </div>
 
                     <div class="g-mb-30">
                       <h3 class="d-inline-block g-bg-primary-opacity-0_6 g-color-white g-font-weight-600 g-font-size-12 text-uppercase g-py-5 g-px-10">General enquiries</h3>
+                      <span class="d-block g-color-white g-font-size-18">execoffice@goga.gy</span>
                       <span class="d-block g-color-white g-font-size-18">info@marakconsulting.com</span>
                     </div>
 

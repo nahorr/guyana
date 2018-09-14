@@ -14,4 +14,11 @@ class ContactController extends Controller
 
     	return view('admin.contactform.submissions');
     }
+
+    public function deleteContactFormSubmission(ContactUs $contactus)
+    {
+    	ContactUs::where('id', $contactus->id)->delete();
+
+    	return back();
+    }
 }

@@ -90,7 +90,7 @@
                          <td class="g-px-30">{{$submissions->created_at->toFormattedDateString()}}</td>
                          
                          <td class="g-px-30">
-                           <button type="button" class="btn btn-danger">Delete Message</button>
+                           <a class="btn btn-danger" href="{{url('admin/contactform/submissions/delete/'.$submissions->id)}}" role="button" onclick="return confirm('Are you sure you want to remove message?')">Delete Message</a>
                          </td>
                        </tr>
                       @endforeach

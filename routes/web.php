@@ -23,6 +23,7 @@ Route::get('/user/verify/{token}', 'Auth\RegisterController@verifyUser');
 	Route::get('/sponsors', 'HomePublic\HomeController@sponsors');
 	Route::get('/exhibit', 'HomePublic\HomeController@exhibit');
 	Route::get('/contact', 'HomePublic\HomeController@contact')->name('contact');
+	Route::get('/emails/contactmail', 'HomePublic\HomeController@contactMail')->name('contactmail');
 	Route::post('/postcontact', 'HomePublic\HomeController@postContact')->name('postcontact');
 	Route::get('/coming-soon', 'HomePublic\HomeController@comingSoon')->name('comingsoon');
 
@@ -116,6 +117,7 @@ Route::group(['middleware' => 'admin'], function () {
   Route::get('admin/deleteReply/{reply}', 'Admin\ReplyController@deleteReply');
 
   Route::get('admin/contactform/submissions', 'Admin\ContactController@contactFormSubmissions')->name('submissions');
+  Route::get('admin/contactform/submissions/delete/{contactus}', 'Admin\ContactController@deleteContactFormSubmission');
   Route::get('admin/business/units', 'Admin\BusinessController@businessUnits')->name('businessUnits');
     
 });
