@@ -2,7 +2,7 @@
 
 @section('content')
 
-	@include('layouts.public.includes.nav-header')
+	@include('layouts.public.includes.nav')
 
   
   <section class="container g-pt-100 g-pb-40">

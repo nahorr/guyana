@@ -2,7 +2,9 @@
 
 @section('content')
 
-  @include('layouts.public.includes.nav-header')
+  @include('layouts.public.includes.nav')
+
+   @include('layouts.public.includes.nav-header')
 
  <section>
        

@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('layouts.public.includes.nav-header')
+@include('layouts.public.includes.nav')
 
     <!-- Signup -->
     <section class="g-bg-gray-light-v5">

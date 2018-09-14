@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('layouts.public.includes.nav-header')
+@include('layouts.public.includes.nav')
     <!-- Login -->
     <section class="g-bg-gray-light-v5">
       <div class="container g-py-100">
