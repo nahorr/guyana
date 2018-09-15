@@ -77,6 +77,7 @@
                     <article>
                       
                       <h3 class="h6">
+
                         <a class="g-font-weight-700" href="https://www.kaieteurnewsonline.com/2018/09/06/guyana-oil-and-gas-association-marak-alliance-to-host-local-content-conference/" target="_blank">Guyana Oil and Gas Association, Marak Alliance to host Local Content Conference</a>
                       </h3>
                     </article>
@@ -109,6 +110,12 @@
                   <h4 class="h6">
                     <i class="fa fa-angle-right g-color-gray-dark-v5 g-mr-5"></i>
                     <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="https://www.uog.edu.gy/" target="_blank">https://www.uog.edu.gy/</a>
+                  </h4>
+                </li>
+                <li class="g-brd-bottom g-brd-gray-light-v4 g-pb-10 g-mb-12">
+                  <h4 class="h6">
+                    <i class="fa fa-angle-right g-color-gray-dark-v5 g-mr-5"></i>
+                    <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="https://localcontentotc2018.com/" target="_blank">https://localcontentotc2018.com/</a>
                   </h4>
                 </li>
                 
