@@ -4,7 +4,7 @@
 
    @include('layouts.public.includes.nav')
 
-   @include('layouts.public.includes.nav-header')
+   
 
   <!-- Promo Block -->
 

@@ -4,8 +4,8 @@
 
    @include('layouts.public.includes.nav')
 
-   @include('layouts.public.includes.nav-header')
-
+   @include('layouts.public.includes.nav-header-home')
+  
 
         <!-- News Content -->
         <section class="g-pb-100 g-mt-60">
@@ -17,20 +17,176 @@
                 <!-- Latest News -->
                 <div class="g-mb-50">
                   <div class="u-heading-v3-1 g-mb-30">
-                    <h2 class="h5 u-heading-v3__title g-font-primary g-font-weight-700 g-color-gray-dark-v1 text-uppercase g-brd-primary">Press Release</h2>
+                    <h2 class="h5 u-heading-v3__title g-font-primary g-font-weight-700 g-color-gray-dark-v1 text-uppercase g-brd-primary">First Guyanese Oil and Gas Local Content Conference</h2>
                   </div>
 
                   <div class="col-md-12">
                     <!-- Article (Leftside) -->
                     
 
-                      <!--<img class="img-fluid w-100" src="{{asset('press-release/press_release_guyana_localcontent.pdf')}}" alt="press_release_guyana_localcontent">-->
-                      <embed src="{{asset('press-release/press_release_guyana_localcontent.pdf')}}" type="application/pdf"   height="700px" width="100%">
+                      <!-- Article -->
+                                  <article class="text-center g-mb-100">
+                                    <figure class="g-pos-rel mb-5">
+                                      <img class="img-fluid" src="{{asset('unify/assets/img-temp/900x400/img3.jpg')}}" alt="Image Description">
+
+                                      <!-- Figcaption -->
+                                      <figcaption class="w-100 g-pos-abs g-bottom-0 g-left-0 g-pa-15">
+                                        <ul class="d-flex justify-content-start list-inline mb-0">
+                                          <li class="list-inline-item mx-0">
+                                            <a class="d-inline-block g-brd-around g-brd-white-opacity-0_3 g-brd-primary-opacity-0_6--hover g-color-white g-bg-primary-opacity-0_6--hover g-text-underline--none--hover rounded-left g-px-15 g-py-4" href="#!">
+                                              <i class="align-middle mr-2 icon-medical-022 u-line-icon-pro"></i>
+                                              25
+                                            </a>
+                                          </li>
+                                          <li class="list-inline-item g-ml-minus-1 mr-0">
+                                            <a class="d-inline-block g-brd-around g-brd-white-opacity-0_3 g-brd-primary-opacity-0_6--hover g-color-white g-bg-primary-opacity-0_6--hover g-text-underline--none--hover rounded-right g-px-15 g-py-4" href="#!">
+                                              <i class="align-middle mr-2 icon-finance-206 u-line-icon-pro"></i>
+                                              12
+                                            </a>
+                                          </li>
+                                          <li class="list-inline-item ml-auto mr-0">
+                                            <a class="d-inline-block g-color-white g-font-size-15 g-text-underline--none--hover g-px-15 g-py-4" href="#!"
+                                               data-toggle="tooltip"
+                                               data-placement="top"
+                                               title="Save to Read Later">
+                                              <i class="fa fa-bookmark-o"></i>
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </figcaption>
+                                      <!-- End Figcaption -->
+                                    </figure>
+
+                                    <!-- Category & Date -->
+                                    <ul class="list-inline g-color-secondary-dark-v1 g-font-weight-600 g-font-size-12 text-uppercase mb-3">
+                                      <li class="list-inline-item g-mr-10">
+                                        <i class="align-middle g-color-primary mr-1 icon-communication-020 u-line-icon-pro"></i>
+                                        <a class="g-font-weight-700" href="#!">Date</a>
+                                      </li>
+                                      <li class="list-inline-item">&#8226;</li>
+                                      <li class="list-inline-item g-ml-10">
+                                        <i class="align-middle g-color-secondary-dark-v1 mr-1 icon-education-124 u-line-icon-pro"></i>
+                                        Dec 04 – 05 2018
+                                      </li>
+                                    </ul>
+                                    <!-- End Category & Date -->
+
+                                    <!-- Info -->
+                                    <div class="g-px-50 g-px-100--md mb-4">
+                                      <h2 class="h3 mb-4"><a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">First Guyanese Oil and Gas Local Content Conference - A Roadmap to Advancing Value Addition and Sustainability</a></h2>
+                                      <h3 class="h5 mb-4"><a class="u-link-v5 g-color-main g-color-primary--hover" href="#!"><strong class="g-color-primary">Venue:</strong> International Conference Centre, Railway Embankment Road Georgetown, Guyana</a></h3>
+                                      <h3 class="h5 mb-4"><a class="u-link-v5 g-color-main g-color-primary--hover" href="#!"><strong class="g-color-primary">Organizers:</strong> Guyana Oil & Gas Association in conjunction with Marak Alliance, Calgary, Canada</a></h3>
+                                      <p>Conservative estimates that oil discovery in Guyana could be up to 1.4 billion barrels and oil is expected to be produced by 2020 with an average output of 100,000 bpd..  According to the IMF, “the main impact of the oil project is through fiscal revenues since the oil sector is fairly isolated from the rest of the economy, with no significant spill over at this time” (IMF article V Consultation May 2017). Liza Phase 1 alone is expected to generate over $7 billion in royalty and profit oil revenues for Guyana over the life of the project.</p>
+                                      <div id="hideHome" style="display: none;">
+                                      <p>However, in addition to the revenue from royalties and taxes, the Government of Guyana “is aware of the potential to capture and retain value within Guyana through the conduct of activities and the offer of services along the value chain of the resource”. Majority of key services are currently being imported due to lack of local capacity to offer required services. To that effect, the Government of Guyana has proposed a Local Content Policy which is currently under discussion.</p>
+                                      <p>Like a growing number of countries with large oil and gas reserves and low level of industrialization, Guyana is seeking to leverage from the exploitation of its oil wealth to achieve higher levels of industrialization, economic diversification and employment. However, achieving such lofty goals is not easy. </p>
+                                      <p>This first local content conference in Guyana is an opportunity for policy makers, oil companies, EPC, subcontractors, academics, consultants, the local business community and other interested stakeholders to gather for two days in Georgetown and discuss how local content in the extractive industries (oil, gas and mining) can benefit the creation of value in the country. Participants will have the opportunity to hear from policy makers from countries that have implemented similar policies, from international academics and consultants who have researched the economic benefits and challenges of these policies, from oil companies’ experiences with local content strategies and from the local business leaders.</p>
+                                      <p>The event is being organized by Guyana Oil & Gas Association, Georgetown, Guyana in conjunction with Marak Alliance, Calgary, Canada.</p>
+                                    </div>
+                                    </div>
+                                    <!-- End Info -->
+
+                                    <div class="g-mb-25">
+                                      <button type="button" class="btn btn-success" id="showReadMoreHome">Read More</button>
+                                      <button type="button" class="btn btn-danger" id="hideReadMoreHome" style="display: none;">Hide</button>
+                                    </div>
+                                    <script type="text/javascript">
+                                      jQuery(document).ready(function( $ ) {
+                                          // Your jQuery code here, using $ to refer to jQuery.
+                                          $("#showReadMoreHome").on("click", function(){
+                                            $("#hideHome").show();
+                                            $("#hideReadMoreHome").show();
+                                          });
+                                          $("#hideReadMoreHome").on("click", function(){
+                                            $("#hideHome").hide();
+                                            $("#hideReadMoreHome").hide();
+                                          });
+                                      });
+                                    </script>
+
+                                  </article>
+                                  <!-- End Article -->
 
                      
                   </div>
                 </div>
                 <!-- End Latest News -->
+
+                <!-- Recent Videos -->
+                              <div class="u-heading-v3-1 g-mb-30">
+                                <h2 class="h5 u-heading-v3__title g-font-primary g-font-weight-700 g-color-gray-dark-v1 text-uppercase g-brd-primary">Gallary</h2>
+                              </div>
+
+                              <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-3 g-mb-30--md">
+                                      <div class="text-center u-block-hover g-bg-primary">
+                                        <img class="u-block-hover__img u-block-hover__main--blur" src="{{asset('unify/assets/img/gallary/1.jpg')}}" alt="Image Description">
+                                        <a class="js-fancybox d-block u-block-hover__additional--blur g-bg-primary g-color-white g-pa-30" href="javascript:;" data-fancybox="lightbox-gallery--15" data-src="{{asset('unify/assets/img/gallary/1.jpg')}}" data-animate-in="bounceInDown" data-animate-out="bounceOutDown" data-speed="1000" data-overlay-blur-bg="true" data-caption="Lightbox Gallery">
+                                          
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 g-mb-30--md">
+                                      <div class="text-center u-block-hover g-bg-primary">
+                                        <img class="u-block-hover__img u-block-hover__main--blur" src="{{asset('unify/assets/img/gallary/2.jpg')}}" alt="Image Description">
+                                        <a class="js-fancybox d-block u-block-hover__additional--blur g-bg-primary g-color-white g-pa-30" href="javascript:;" data-fancybox="lightbox-gallery--15" data-src="{{asset('unify/assets/img/gallary/2.jpg')}}" data-animate-in="bounceInDown" data-animate-out="bounceOutDown" data-speed="1000" data-overlay-blur-bg="true" data-caption="Lightbox Gallery">
+                                          
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 g-mb-30--md">
+                                      <div class="text-center u-block-hover g-bg-primary">
+                                        <img class="u-block-hover__img u-block-hover__main--blur" src="{{asset('unify/assets/img/gallary/3.jpg')}}" alt="Image Description">
+                                        <a class="js-fancybox d-block u-block-hover__additional--blur g-bg-primary g-color-white g-pa-30" href="javascript:;" data-fancybox="lightbox-gallery--15" data-src="{{asset('unify/assets/img/gallary/3.jpg')}}" data-animate-in="bounceInDown" data-animate-out="bounceOutDown" data-speed="1000" data-overlay-blur-bg="true" data-caption="Lightbox Gallery">
+                                          
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 g-mb-30--md">
+                                      <div class="text-center u-block-hover g-bg-primary">
+                                        <img class="u-block-hover__img u-block-hover__main--blur" src="{{asset('unify/assets/img/gallary/4.jpg')}}" alt="Image Description">
+                                        <a class="js-fancybox d-block u-block-hover__additional--blur g-bg-primary g-color-white g-pa-30" href="javascript:;" data-fancybox="lightbox-gallery--15" data-src="{{asset('unify/assets/img/gallary/4.jpg')}}" data-animate-in="bounceInDown" data-animate-out="bounceOutDown" data-speed="1000" data-overlay-blur-bg="true" data-caption="Lightbox Gallery">
+                                          
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 g-mb-30--md">
+                                      <div class="text-center u-block-hover g-bg-primary">
+                                        <img class="u-block-hover__img u-block-hover__main--blur" src="{{asset('unify/assets/img/gallary/5.jpg')}}" alt="Image Description">
+                                        <a class="js-fancybox d-block u-block-hover__additional--blur g-bg-primary g-color-white g-pa-30" href="javascript:;" data-fancybox="lightbox-gallery--15" data-src="{{asset('unify/assets/img/gallary/5.jpg')}}" data-animate-in="bounceInDown" data-animate-out="bounceOutDown" data-speed="1000" data-overlay-blur-bg="true" data-caption="Lightbox Gallery">
+                                          
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 g-mb-30--md">
+                                      <div class="text-center u-block-hover g-bg-primary">
+                                        <img class="u-block-hover__img u-block-hover__main--blur" src="{{asset('unify/assets/img/gallary/6.jpg')}}" alt="Image Description">
+                                        <a class="js-fancybox d-block u-block-hover__additional--blur g-bg-primary g-color-white g-pa-30" href="javascript:;" data-fancybox="lightbox-gallery--15" data-src="{{asset('unify/assets/img/gallary/6.jpg')}}" data-animate-in="bounceInDown" data-animate-out="bounceOutDown" data-speed="1000" data-overlay-blur-bg="true" data-caption="Lightbox Gallery">
+                                          
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 g-mb-30--md">
+                                      <div class="text-center u-block-hover g-bg-primary">
+                                        <img class="u-block-hover__img u-block-hover__main--blur" src="{{asset('unify/assets/img/gallary/7.jpg')}}" alt="Image Description">
+                                        <a class="js-fancybox d-block u-block-hover__additional--blur g-bg-primary g-color-white g-pa-30" href="javascript:;" data-fancybox="lightbox-gallery--15" data-src="{{asset('unify/assets/img/gallary/7.jpg')}}" data-animate-in="bounceInDown" data-animate-out="bounceOutDown" data-speed="1000" data-overlay-blur-bg="true" data-caption="Lightbox Gallery">
+                                          
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 g-mb-30--md">
+                                      <div class="text-center u-block-hover g-bg-primary">
+                                        <img class="u-block-hover__img u-block-hover__main--blur" src="{{asset('unify/assets/img/gallary/8.jpg')}}" alt="Image Description">
+                                        <a class="js-fancybox d-block u-block-hover__additional--blur g-bg-primary g-color-white g-pa-30" href="javascript:;" data-fancybox="lightbox-gallery--15" data-src="{{asset('unify/assets/img/gallary/8.jpg')}}" data-animate-in="bounceInDown" data-animate-out="bounceOutDown" data-speed="1000" data-overlay-blur-bg="true" data-caption="Lightbox Gallery">
+                                          
+                                        </a>
+                                      </div>
+                                    </div>
+                                                                       
+                              </div>
+                              </div>
+                              <!-- End Recent Videos -->
 
                
 

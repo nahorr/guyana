@@ -3,6 +3,7 @@
 @section('content')
 
 	@include('layouts.public.includes.nav')
+  @include('layouts.public.includes.header')
 
   
   <section class="container g-pt-100 g-pb-40">

@@ -65,6 +65,27 @@
                     </ul>
                   </div>
                   <!-- End Social Links -->
+
+
+                  <!-- News Feed -->
+                  <div class="g-mb-40">
+                    <div class="u-heading-v3-1 g-mb-30">
+                      <h2 class="h5 u-heading-v3__title g-color-gray-dark-v1 text-uppercase g-brd-primary">Latest News</h2>
+                    </div>
+
+                    <!-- Article -->
+                    <article>
+                      
+                      <h3 class="h6">
+                        <a class="g-font-weight-700" href="https://www.kaieteurnewsonline.com/2018/09/06/guyana-oil-and-gas-association-marak-alliance-to-host-local-content-conference/" target="_blank">Guyana Oil and Gas Association, Marak Alliance to host Local Content Conference</a>
+                      </h3>
+                    </article>
+                    <!-- End Article -->
+
+                    
+                  </div>
+                  <!-- End News Feed -->
+
                 </div>
               </div>
               <!-- End Sidebar -->
