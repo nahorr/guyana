@@ -86,6 +86,36 @@
                   </div>
                   <!-- End News Feed -->
 
+                  <!-- Useful Links -->
+            <div class="g-mb-50">
+              <div class="u-heading-v3-1 g-mb-30">
+                <h2 class="h5 u-heading-v3__title g-color-gray-dark-v1 text-uppercase g-brd-primary">Useful Links</h2>
+              </div>
+
+              <ul class="list-unstyled">
+                <li class="g-brd-bottom g-brd-gray-light-v4 g-pb-10 g-mb-12">
+                  <h4 class="h6">
+                    <i class="fa fa-angle-right g-color-gray-dark-v5 g-mr-5"></i>
+                    <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="https://motp.gov.gy/" target="_blank">https://motp.gov.gy/</a>
+                  </h4>
+                </li>
+                <li class="g-brd-bottom g-brd-gray-light-v4 g-pb-10 g-mb-12">
+                  <h4 class="h6">
+                    <i class="fa fa-angle-right g-color-gray-dark-v5 g-mr-5"></i>
+                    <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="http://www.business.gov.gy/" target="_blank">http://www.business.gov.gy/</a>
+                  </h4>
+                </li>
+                <li class="g-brd-bottom g-brd-gray-light-v4 g-pb-10 g-mb-12">
+                  <h4 class="h6">
+                    <i class="fa fa-angle-right g-color-gray-dark-v5 g-mr-5"></i>
+                    <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="https://www.uog.edu.gy/" target="_blank">https://www.uog.edu.gy/</a>
+                  </h4>
+                </li>
+                
+              </ul>
+            </div>
+            <!-- End Useful Links -->
+
                 </div>
               </div>
               <!-- End Sidebar -->

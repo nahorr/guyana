@@ -3,9 +3,7 @@
 @section('content')
 
 	@include('layouts.public.includes.nav')
-  @include('layouts.public.includes.header')
-
-  
+    
   <section class="container g-pt-100 g-pb-40">
     <div class="row justify-content-between">
       <div class="col-md-7 g-mb-60">
