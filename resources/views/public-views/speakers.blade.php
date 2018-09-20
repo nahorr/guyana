@@ -209,6 +209,29 @@
 	                   <!-- End Figure -->
 	                 </div>
 
+	                 <div class="col-lg-3 col-sm-6 g-mb-30">
+	                   <!-- Figure -->
+	                   <figure class="g-color-gray-dark-v2">
+	                     <!-- Figure Image -->
+	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/defualt.jpg')}}" alt="Roger Tissot">
+	                     <!-- End Figure Image -->
+
+	                     <!-- Figure Info -->
+	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Speaker</strong></em>
+	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Mr. Newell Dennison</h4>
+	                     <p class="g-font-size-13 g-color-gray-dark-v4">Commissioner Guyana Geological and Mining Commission, Guyana</p>
+	                     <!-- End Info -->
+
+	                     
+
+	                     <!-- Contact Info -->
+	                     <ul class="list-unstyled g-font-size-13 g-color-gray-dark-v4">
+	                       
+	                     </ul>
+	                     <!-- End Contact Info -->
+	                   </figure>
+	                   <!-- End Figure -->
+	                 </div>
 	                
 	               </div>
 	               <hr>
