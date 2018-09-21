@@ -51,9 +51,9 @@
 
                 </li>
                 <!-- End Home -->
-                <!-- Home -->
+                
                 <li class="nav-item g-mr-10--lg g-mr-20--xl">
-                  <a id="nav-link--home" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="{{asset('agenda/localcontent_guyana_2018_agenda.pdf')}}" target="_blank">
+                  <a id="nav-link--home" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="{{ url('agenda') }}">
                     Agenda
                   </a>
 

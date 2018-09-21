@@ -21,6 +21,7 @@ Route::get('/user/verify/{token}', 'Auth\RegisterController@verifyUser');
 	Route::get('/speakers', 'HomePublic\HomeController@speakers');
 	Route::get('/registration', 'HomePublic\HomeController@registration');
 	Route::get('/sponsors', 'HomePublic\HomeController@sponsors');
+	Route::get('/agenda', 'HomePublic\HomeController@agenda');
 	Route::get('/exhibit', 'HomePublic\HomeController@exhibit');
 	Route::get('/contact', 'HomePublic\HomeController@contact')->name('contact');
 	Route::get('/emails/contactmail', 'HomePublic\HomeController@contactMail')->name('contactmail');

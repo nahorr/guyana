@@ -38,6 +38,10 @@ class HomeController extends Controller
     {
         return view('public-views.sponsors');
     }
+    public function agenda()
+    {
+        return view('public-views.agenda');
+    }
     public function exhibit()
     {
         return view('public-views.exhibit');
