@@ -83,6 +83,34 @@
                 <!-- End Example Button -->
                   
               </div>
+
+                <div class="u-heading-v3-1 g-mb-30">
+                  <h2 class="h5 u-heading-v3__title g-font-primary g-font-weight-700 g-color-gray-dark-v1 text-uppercase g-brd-primary">Sponsors</h2>
+                </div>
+
+                <div class="row">
+                  <!-- Article Video -->
+                  <div class="col-lg-4 col-sm-6 g-mb-30">
+                    <article>
+                      <figure class="u-shadow-v25 g-pos-rel g-mb-20">
+                        <img class="img-fluid w-100" src="{{asset('unify/assets/img/sponsors/bpi.jpg')}}" alt="bpi">
+
+                        <figcaption class="g-pos-abs g-top-10 g-left-10">
+                          <a class="btn btn-xs u-btn-blue text-uppercase rounded-0" href="#!">Silver Sponsor</a>
+                        </figcaption>
+
+                        
+                      </figure>
+
+                      <h3 class="g-font-size-16 g-mb-10">
+                        <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="#!">Official Conference Coffee Provider: Bpi Guyana Inc.(Bpi) <a href="www.bpiguyana.com" target="_blank">www.bpiguyana.com</a>
+                      </h3>
+                    </article>
+                  </div>
+                  <!-- End Article Video -->
+
+                 
+                </div>
                 
 
                 <div id="stickyblock-end"></div>

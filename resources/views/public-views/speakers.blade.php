@@ -23,6 +23,33 @@
 
 	               <!-- Team Block 1 -->
 	               <div class="row">
+	               	<div class="col-lg-3 col-sm-6 g-mb-30">
+	                   <!-- Figure -->
+	                   <figure class="g-color-gray-dark-v2">
+	                     <!-- Figure Image -->
+	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/defualt.png')}}" alt="Dr. Mark Bynoe">
+	                     <!-- End Figure Image -->
+
+	                     <!-- Figure Info -->
+	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Keynote Speaker</strong></em>
+	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Dr. Mark Bynoe</h4>
+	                     <p class="g-font-size-13 g-color-gray-dark-v4">Head, Department of Energy</p>
+	                     <!-- End Info -->
+
+	                     <hr class="g-brd-gray-light-v4 g-my-15">
+
+	                     <!-- Contact Info -->
+	                     <!-- <ul class="list-unstyled g-font-size-13 g-color-gray-dark-v4">
+	                       <li class="g-mb-5">
+		                        <i class="fa fa-globe g-mr-10"></i>
+		                         http://www.business.gov.gy/
+	                       </li>
+	                     </ul> -->
+	                     <!-- End Contact Info -->
+	                   </figure>
+	                   <!-- End Figure -->
+	                 </div>
+
 	                 <div class="col-lg-3 col-sm-6 g-mb-30">
 	                   <!-- Figure -->
 	                   <figure class="g-color-gray-dark-v2">
@@ -78,32 +105,7 @@
 	                   <!-- End Figure -->
 	                 </div>
 
-	                 <div class="col-lg-3 col-sm-6 g-mb-30">
-	                   <!-- Figure -->
-	                   <figure class="g-color-gray-dark-v2">
-	                     <!-- Figure Image -->
-	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/ministry_of_business.jpg')}}" alt="Ministry of Natural Resources">
-	                     <!-- End Figure Image -->
-
-	                     <!-- Figure Info -->
-	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Speaker</strong></em>
-	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Ministry of Natural Resources</h4>
-	                     <p class="g-font-size-13 g-color-gray-dark-v4">Government of Guyana</p>
-	                     <!-- End Info -->
-
-	                     <hr class="g-brd-gray-light-v4 g-my-15">
-
-	                     <!-- Contact Info -->
-	                     <ul class="list-unstyled g-font-size-13 g-color-gray-dark-v4">
-	                       <li class="g-mb-5">
-		                        <i class="fa fa-globe g-mr-10"></i>
-		                         http://www.business.gov.gy/
-	                       </li>
-	                     </ul>
-	                     <!-- End Contact Info -->
-	                   </figure>
-	                   <!-- End Figure -->
-	                 </div>
+	                 
 
 	                 <div class="col-lg-3 col-sm-6 g-mb-30">
 	                   <!-- Figure -->
@@ -131,6 +133,8 @@
 	                   </figure>
 	                   <!-- End Figure -->
 	                 </div>
+
+
 	               </div>
 	               <hr>
 	               <!-- End Team Block 1 -->
@@ -141,13 +145,13 @@
 	                   <!-- Figure -->
 	                   <figure class="g-color-gray-dark-v2">
 	                     <!-- Figure Image -->
-	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/bobby_gossai.jpg')}}" alt="Bobby Gossai">
+	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/keith_lewis.jpg')}}" alt="Keith Lewis">
 	                     <!-- End Figure Image -->
 
 	                     <!-- Figure Info -->
 	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Speaker</strong></em>
-	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Bobby Gossai</h4>
-	                     <p class="g-font-size-13 g-color-gray-dark-v4">President & Chief Executive Officer at Guyana Oil and Gas Association Inc.</p>
+	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Keith Lewis</h4>
+	                     <p class="g-font-size-13 g-color-gray-dark-v4">Subsea Consultant, Subsea Specialist Ltd.</p>
 	                     <!-- End Info -->
 
 	                     
