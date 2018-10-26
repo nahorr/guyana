@@ -20,6 +20,7 @@ Route::get('/user/verify/{token}', 'Auth\RegisterController@verifyUser');
 	Route::get('/about', 'HomePublic\HomeController@about')->name('about');
 	Route::get('/speakers', 'HomePublic\HomeController@speakers');
 	Route::get('/registration', 'HomePublic\HomeController@registration');
+	Route::get('/local_indigenous_registration', 'HomePublic\HomeController@localRegistration');
 	Route::get('/sponsors', 'HomePublic\HomeController@sponsors');
 	Route::get('/agenda', 'HomePublic\HomeController@agenda');
 	Route::get('/exhibit', 'HomePublic\HomeController@exhibit');

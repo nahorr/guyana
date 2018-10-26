@@ -20,7 +20,7 @@
                 <!-- Breaking News -->
                 <div class="g-mb-10">
                   <div class="u-heading-v3-1 g-mb-30">
-                    <h2 class="h5 u-heading-v3__title g-font-primary g-font-weight-700 g-color-gray-dark-v1 text-uppercase g-brd-primary">Registration</h2>
+                    <h2 class="h5 u-heading-v3__title g-font-primary g-font-weight-700 g-color-gray-dark-v1 text-uppercase g-brd-primary">Registration(Local Indigenous Guyanese businesses)</h2>
                   </div>
                   <article class="text-center g-mb-10">
                     <figure class="g-pos-rel mb-5">
@@ -33,27 +33,27 @@
                     
                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 
-                    <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="cmd" value="_s-xclick">
 
-                    <input type="hidden" name="hosted_button_id" value="GR75MCSNMZWNU">
+                  <input type="hidden" name="hosted_button_id" value="A29DQTZ8WVATL">
 
-                    <table>
+                  <table>
 
-                    <tr><td><input type="hidden" name="on0" value="Early bird fee until Oct 31 plus standard fees">Fee Details</td></tr><tr><td><select name="os0">
+                  <tr><td><input type="hidden" name="on0" value="Early bird fee until Oct 31">Early bird fee until Oct 31</td></tr><tr><td><select name="os0">
 
-                                   <option value="Early bird fee until Oct 31">Early bird fee until Oct 31 : $650</option>
+                                 <option value="Early bird fee until Oct 31">Early bird fee until Oct 31 $300.00 USD</option>
 
-                                   <option value="Conference fee after Oct. 31">After 31 Oct : $850</option>
+                                 <option value="Conference fee after Oct. 31">Conference fee after Oct. 31 $400.00 USD</option>
 
-                    </select> </td></tr>
+                  </select> </td></tr>
 
-                    </table>
+                  </table>
 
-                    <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="currency_code" value="USD">
 
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 
                   </form>
 
@@ -67,35 +67,18 @@
                   <!-- Article Content -->
                     <div class="col-md-12 align-self-center">
                       <h3 class="h4 g-mb-15">
-                        <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="#!"> Fee details: </a>
+                        <p>Registration for Local Indigenous Guyanese businesses (50% or more shares are owned by Guyanese indigenes):</p>
+                        <p>Fee details: Early bird fee until Oct 31 (More than 50% discount off regular price of $650):  $300</p>
+                        <p>Conference Fee After 31 Oct: $400</p>
+                        <p>We look forward to welcoming you to the Conference</p>
                       </h3>
 
-                      <div class="col-lg">
-                        <ul class="list-unstyled g-mb-12 g-mb-0--md">
-                          <li class="d-flex align-items-center g-mb-12">
-                            <i class="icon-check d-block g-color-primary g-mr-8"></i>
-                            <span class="d-block">Indigenous Guyanese businesses: $300</span>
-                          </li>
-                          <li class="d-flex align-items-center g-mb-12">
-                            <i class="icon-check d-block g-color-primary g-mr-8"></i>
-                            <span class="d-block">International and non-indigenous businesses: $650</span>
-                          </li>
-                          
-                        </ul>
-                      </div>
+                      
                       
                   </div>
                     <!-- End Article Content -->
 
-                  <!-- Article Content -->
-                    <div class="col-md-12 align-self-center">
-                      <h3 class="h5 g-mb-15">
-                        Registration for Local Indigenous Guyanese businesses (50% or more shares are owned by Guyanese indigenes): Please complete this <a href="{{url('contact')}}">form</a>  to initiate your registration and receive any discount in operation.
-                      </h3>
-
-                      
-                  </div>
-                    <!-- End Article Content -->
+                  
                     
                 </div>
 

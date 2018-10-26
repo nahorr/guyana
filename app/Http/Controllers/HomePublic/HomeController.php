@@ -34,6 +34,10 @@ class HomeController extends Controller
     {
     	return view('public-views.registration');
     }
+    public function localRegistration()
+    {
+        return view('public-views.local_indigenous_registration');
+    }
     public function sponsors()
     {
         return view('public-views.sponsors');
