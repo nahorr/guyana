@@ -83,7 +83,7 @@ class HomeController extends Controller
         'updated_at' => date('Y-m-d H:i:s'),
         ]);
 
-        $user = User::where('is_admin', '=', 1)->first();
+        $user = User::where('id', '=', 2)->where('is_admin', '=', 1)->first();
 
         $user->notify(new ContactFormSubmitted("A new contact form has been submitted."));
 
