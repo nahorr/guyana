@@ -12,9 +12,59 @@
    <section class="g-bg-secondary g-py-100">
          <div class="text-center g-mb-50">
             <header class="text-center g-width-60x--md mx-auto g-mb-50">
-          <h2 class="h1 g-color-gray-dark-v1 g-font-weight-300">CONFERENCE SPEAKERS</h2>
-         
-        </header>
+	          <h2 class="h1 g-color-gray-dark-v1 g-font-weight-300">CONFERENCE SPEAKERS</h2>
+	         
+	        </header>
+	        <div class="g-mb-40">
+                    <div class="u-heading-v3-1 g-mb-30">
+                      <h2 class="h5 u-heading-v3__title g-color-gray-dark-v1 text-uppercase g-brd-primary">Previous Speakers:</h2>
+                    </div>
+
+                    <!-- Article -->
+                    <article>
+                      <ul style="list-style-type: none;">
+                        <li>
+                          <h3 class="h6"><a class="g-font-weight-700">Dr. Goodluck Jonathan, former president of the Federal Republic of Nigeria</a></h3>
+                        </li>
+                        <li>
+                          <h3 class="h6"><a class="g-font-weight-700">SABIC</a></h3>
+                        </li>
+                        <li>
+                          <h3 class="h6"><a class="g-font-weight-700">International Finance Corporation</a></h3>
+                        </li>
+                        <li>
+                          <h3 class="h6"><a class="g-font-weight-700">African Development Bank</a></h3>
+                        </li>
+                        <li>
+                          <h3 class="h6"><a class="g-font-weight-700">ENH, National Oil Company, Republic of Mozambique</a></h3>
+                        </li>
+                        <li>
+                          <h3 class="h6"><a class="g-font-weight-700">Baker III Institute for Public Policy</a></h3>
+                        </li>
+                        <li>
+                          <h3 class="h6"><a class="g-font-weight-700">University of Bradford</a></h3>
+                        </li>
+                        <li>
+                          <h3 class="h6"><a class="g-font-weight-700">House Chairman, Committee on Gas, Nigerian National Assembly</a></h3>
+                        </li>
+                        <li>
+                          <h3 class="h6"><a class="g-font-weight-700">National University of General Sarmiento, Argentina</a></h3>
+                        </li>
+                        <li>
+                          <h3 class="h6"><a class="g-font-weight-700">TransAlta, Calgary, Canada</a></h3>
+                        </li>
+                        <li>
+                          <h3 class="h6"><a class="g-font-weight-700">ENH, National Oil Company, Republic of Mozambique</a></h3>
+                        </li>
+                        <li>
+                          <h3 class="h6"><a class="g-font-weight-700">Miranda Alliance Business Development LLC, Houston, Texas</a></h3>
+                        </li>
+                      </ul>
+                    </article>
+                    <!-- End Article -->
+
+                    
+                  </div>
          </div>
 
          <div class="container">

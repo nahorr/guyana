@@ -25,12 +25,12 @@
                     
 
                     <!-- Article -->
-                    <article class="text-center g-mb-100">
-                      <figure class="g-pos-rel mb-5">
+                    <article class="g-mb-100">
+                      <!-- <figure class="g-pos-rel mb-5">
                         <img class="img-fluid" src="{{asset('unify/assets/img-temp/900x400/img3.jpg')}}" alt="Image Description">
 
                       </figure>
-
+ -->
                       <!-- Category & Date -->
                       <ul class="list-inline g-color-secondary-dark-v1 g-font-weight-600 g-font-size-12 text-uppercase mb-3">
                         <li class="list-inline-item g-mr-10">
@@ -46,10 +46,10 @@
                       <!-- End Category & Date -->
 
                       <!-- Info -->
-                      <div class="g-px-50 g-px-100--md mb-4">
+                      <div class="mb-4">
                         <h2 class="h3 mb-4"><a class="u-link-v5 g-color-main g-color-primary--hover" href="#!">First Guyanese Oil and Gas Local Content Conference - A Roadmap to Advancing Value Addition and Sustainability</a></h2>
                         <h3 class="h5 mb-4"><a class="u-link-v5 g-color-main g-color-primary--hover" href="#!"><strong class="g-color-primary">Venue:</strong> International Conference Centre, Railway Embankment Road Georgetown, Guyana</a>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.582398762825!2d-58.12082838522762!3d6.820536095070577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dafee930cf19cf7%3A0x7e9d30ccb2dd6e73!2sArthur+Chung+Conference+Center!5e0!3m2!1sen!2sca!4v1537044357720" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.582398762825!2d-58.12082838522762!3d6.820536095070577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dafee930cf19cf7%3A0x7e9d30ccb2dd6e73!2sArthur+Chung+Conference+Center!5e0!3m2!1sen!2sca!4v1537044357720" width="95%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></h3>
                         <h3 class="h5 mb-4"><a class="u-link-v5 g-color-main g-color-primary--hover" href="#!"><strong class="g-color-primary">Organizers:</strong> Guyana Oil & Gas Association in conjunction with Marak Alliance, Calgary, Canada</a></h3>
                         <p>Conservative estimates that oil discovery in Guyana could be up to 1.4 billion barrels and oil is expected to be produced by 2020 with an average output of 100,000 bpd..  According to the IMF, “the main impact of the oil project is through fiscal revenues since the oil sector is fairly isolated from the rest of the economy, with no significant spill over at this time” (IMF article V Consultation May 2017). Liza Phase 1 alone is expected to generate over $7 billion in royalty and profit oil revenues for Guyana over the life of the project.</p>
                         <div id="hideHome" style="display: none;">

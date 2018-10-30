@@ -86,11 +86,7 @@
                   @if(Auth::check())
                     
                       <a class="btn u-btn-outline-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="{{url('home')}}" target="_blank">Dashboard</a>
-                    
-                  @else
-                  
-                      <a class="btn u-btn-outline-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="{{url('login')}}" target="_blank">Login/Register</a>
-                    
+                 
                   @endif
                 </li>
                 
