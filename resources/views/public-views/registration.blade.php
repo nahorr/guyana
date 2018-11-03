@@ -65,7 +65,7 @@
                 <div class="row">
 
                   <!-- Article Content -->
-                    <div class="col-md-12 align-self-center">
+                    <!-- <div class="col-md-12 align-self-center">
                       <h3 class="h4 g-mb-15">
                         <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="#!"> Fee details: </a>
                       </h3>
@@ -84,7 +84,7 @@
                         </ul>
                       </div>
                       
-                  </div>
+                  </div> -->
                     <!-- End Article Content -->
 
                   <!-- Article Content -->
