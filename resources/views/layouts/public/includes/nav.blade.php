@@ -83,6 +83,12 @@
 
                 </li>
                 <li class="nav-item g-mr-10--lg g-mr-20--xl">
+                  <a id="nav-link--home" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="{{asset('press-release/press_release_guyana_localcontent.pdf')}}" target="_blank">
+                    Press Release
+                  </a>
+
+                </li>
+                <li class="nav-item g-mr-10--lg g-mr-20--xl">
                   @if(Auth::check())
                     
                       <a class="btn u-btn-outline-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="{{url('home')}}" target="_blank">Dashboard</a>

@@ -461,6 +461,31 @@
 	                   </figure>
 	                   <!-- End Figure -->
 	                 </div>
+
+	                 <div class="col-lg-3 col-sm-6 g-mb-30">
+	                   <!-- Figure -->
+	                   <figure class="g-color-gray-dark-v2">
+	                     <!-- Figure Image -->
+	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/Dr_Maria_Beug_Deeb.jpg')}}" alt="Dr. Maria Beug-Deeb">
+	                     <!-- End Figure Image -->
+
+	                     <!-- Figure Info -->
+	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Speaker</strong></em>
+	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Dr. Maria Beug-Deeb</h4>
+	                     <p class="g-font-size-13 g-color-gray-dark-v4">T&M Associates</p>
+	                     <p class="g-font-size-13 g-color-gray-dark-v4">Paper: Value Addition Options and Practical Solutions</p>
+	                     <!-- End Info -->
+
+	                     
+
+	                     <!-- Contact Info -->
+	                     <ul class="list-unstyled g-font-size-13 g-color-gray-dark-v4">
+	                       
+	                     </ul>
+	                     <!-- End Contact Info -->
+	                   </figure>
+	                   <!-- End Figure -->
+	                 </div>
 	                  
 	               </div>
 	               <hr>
