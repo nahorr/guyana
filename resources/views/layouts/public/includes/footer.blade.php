@@ -93,7 +93,7 @@
                 <i class="fa fa-map-marker"></i>
               </span>
             </div>
-            <p class="mb-0">Marak Alliance, LLC <br> 2502 La Branch St. Houston, TX 77004.</p>
+            <p class="mb-0">Marak Alliance, LLC <br> <a href="https://marakconsulting.com" target="_blank"> https://marakconsulting.com</a></p>
           </div>
           <!-- End Location -->
 
