@@ -24,7 +24,7 @@
                   </div>
                   <article class="text-center g-mb-10">
                     <figure class="g-pos-rel mb-5">
-                      <img class="img-fluid" src="{{asset('unify/assets/img-temp/900x400/img3-1.jpg')}}" alt="Image Description">
+                      <img class="img-fluid" src="{{asset('unify/assets/img-temp/900x400/GOGA_Conference_Advert.jpg')}}" alt="GOGA Conference Advert">
 
                     </figure>
                   </article>

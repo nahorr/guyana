@@ -52,6 +52,19 @@
                 </div>
                 <!-- End Breaking News -->
 
+                <!-- Breaking News -->
+                <div class="g-mb-60">
+                  
+                  <article class="g-mb-100">
+                    <figure class="g-pos-rel mb-5">
+                      <img class="img-fluid" src="{{asset('unify/assets/img-temp/900x400/GOGA_Conference_Advert.jpg')}}" alt="GOGA Conference Advert">
+
+                    </figure>
+                  </article>
+                 
+                </div>
+                <!-- End Breaking News -->
+
               <hr>
 
                 <div id="stickyblock-end"></div>

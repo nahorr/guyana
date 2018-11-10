@@ -3,6 +3,14 @@
 @section('content')
 
 	@include('layouts.public.includes.nav')
+<section class="container g-pt-100 g-pb-40">
+  <article class="g-mb-100">
+    <figure class="g-pos-rel mb-5">
+      <img class="img-fluid" src="{{asset('unify/assets/img-temp/900x400/GOGA_Conference_Advert.jpg')}}" alt="GOGA Conference Advert">
+
+    </figure>
+  </article>
+</section>
     
   <section class="container g-pt-100 g-pb-40">
     <div class="row justify-content-between">

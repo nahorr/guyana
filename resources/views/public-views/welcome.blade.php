@@ -26,11 +26,11 @@
 
                     <!-- Article -->
                     <article class="g-mb-100">
-                      <!-- <figure class="g-pos-rel mb-5">
-                        <img class="img-fluid" src="{{asset('unify/assets/img-temp/900x400/img3.jpg')}}" alt="Image Description">
+                      <figure class="g-pos-rel mb-5">
+                        <img class="img-fluid" src="{{asset('unify/assets/img-temp/900x400/GOGA_Conference_Advert.jpg')}}" alt="GOGA Conference Advert">
 
                       </figure>
- -->
+ 
                       <!-- Category & Date -->
                       <ul class="list-inline g-color-secondary-dark-v1 g-font-weight-600 g-font-size-12 text-uppercase mb-3">
                         <li class="list-inline-item g-mr-10">
