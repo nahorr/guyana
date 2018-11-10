@@ -104,7 +104,7 @@
                 <i class="fa fa-phone"></i>
               </span>
             </div>
-            <p class="mb-0">+18324047429</p>
+            <p class="mb-0">+1 592 608 6110</p>
           </div>
           <!-- End Phone -->
 
