@@ -55,13 +55,13 @@
         <div class="w-100 text-center g-pos-rel g-z-index-1 g-pa-20 g-pa-50--sm mt-auto">
           <div class="g-mb-30">
             <h2 class="g-color-white g-font-weight-600">Marak Alliance, <span class="g-color-primary">LLC</span></h2>
-            <p class="g-color-white-opacity-0_8">2502 La Branch St.
-              <br>Houston, TX 77004.</p>
+            <p class="g-color-white-opacity-0_8">
+              <br></p>
           </div>
 
           <div class="g-mb-30">
             <h3 class="g-color-primary g-font-weight-600 g-font-size-12 text-uppercase"><i class="g-color-primary g-font-size-20 icon-communication-033 u-line-icon-pro"></i> Phone number</h3>
-            <span class="g-color-white g-font-size-20">832-404-7429</span>
+            <span class="g-color-white g-font-size-20">+1 592 608 6110</span>
           </div>
 
           <div class="g-mb-30">
