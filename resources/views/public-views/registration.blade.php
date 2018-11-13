@@ -30,8 +30,42 @@
                   </article>
 
                   <div class="row g-mb-10">
+                  <h3 class="h5">
+                    <p>Local Indigenous Business: Start registration by completing this <a href="{{url('contact')}}">form</a> and registration details will be provided</p>
+                    <p>Registration for Local Indigenous Guyanese businesses (50% or more shares are owned by Guyanese indigenes): Please complete this <a href="{{url('contact')}}">form</a>  to initiate your registration and receive any discount in operation.</p>
+                  </h3>
+
+                      
+                  </div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+
+                      <input type="hidden" name="cmd" value="_s-xclick">
+
+                      <input type="hidden" name="hosted_button_id" value="GR75MCSNMZWNU">
+
+                      <table>
+
+                      <tr><td><input type="hidden" name="on0" value="Conference fee">Conference fee</td></tr><tr><td><select name="os0">
+
+                                     <option value="Conference fee">Conference fee $850.00 USD</option>
+
+                      </select> </td></tr>
+
+                      <tr><td><input type="hidden" name="on1" value="Name of Delegate">Name of Delegate</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+
+                      <tr><td><input type="hidden" name="on2" value="Email Address of Delegate">Email Address of Delegate</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
+
+                      </table>
+
+                      <input type="hidden" name="currency_code" value="USD">
+
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+
+                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+                    </form>
                     
-                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 
                     <input type="hidden" name="cmd" value="_s-xclick">
 
@@ -55,7 +89,7 @@
 
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 
-                  </form>
+                  </form> -->
 
                   </div>
                 </div>
@@ -88,13 +122,7 @@
                     <!-- End Article Content -->
 
                   <!-- Article Content -->
-                    <div class="col-md-12 align-self-center">
-                      <h3 class="h5 g-mb-15">
-                        Registration for Local Indigenous Guyanese businesses (50% or more shares are owned by Guyanese indigenes): Please complete this <a href="{{url('contact')}}">form</a>  to initiate your registration and receive any discount in operation.
-                      </h3>
-
-                      
-                  </div>
+                    
                     <!-- End Article Content -->
                     
                 </div>
