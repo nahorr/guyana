@@ -37,12 +37,12 @@
                     <!-- Article Content -->
                     <div class="col-md-7 align-self-center">
                       <!-- Example Button -->
-                      <a href="{{url('contact')}}" class="btn btn-xl u-btn-orange u-btn-hover-v2-2 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15">
+                      <a href="{{asset('agenda_files/Guyana_Local_Content 2018_Draft_Agenda2.pdf')}}" target="_blank" class="btn btn-xl u-btn-orange u-btn-hover-v2-2 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15">
                         <span class="pull-left text-left">
-                          Contact us
-                          <span class="d-block g-font-size-11">Contact Us for a copy of the Agenda</span>
+                         Download/VIEW
+                          <span class="d-block g-font-size-11">copy of the Agenda</span>
                         </span>
-                        <i class="fa fa-handshake-o float-right g-font-size-42 g-ml-15"></i>
+                        <i class="fa fa-download float-right g-font-size-42 g-ml-15"></i>
                       </a>
                       <!-- End Example Button -->
 
