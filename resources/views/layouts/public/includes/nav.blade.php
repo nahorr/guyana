@@ -41,24 +41,46 @@
                   </a>
 
                 </li>
-                <!-- End Home -->
+                <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                  <a id="nav-link--features" class="nav-link g-py-7 g-px-0"  href="{{url('registration')}}" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features">Registration</a>
 
-                <!-- Home -->
-                <li class="nav-item g-mr-10--lg g-mr-20--xl">
-                  <a id="nav-link--home" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="{{url('registration')}}">
-                    Registration
-                  </a>
+                  <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
+                    <!-- Features - Headers -->
+                    <li class="dropdown-item ">
+                      <a class="nav-link" href="{{url('registration')}}">Register</a>
+                    </li>
+                    <li class="dropdown-item ">
+                      <a class="nav-link" href="{{asset('registration_info_files/hotel_info.pdf')}}" target="_blank">Hotel Information and Rates</a>
+                    </li>
+                    <li class="dropdown-item ">
+                      <a class="nav-link" href="{{asset('registration_info_files/taxi_info.pdf')}}" target="_blank">Taxi Information</a>
+                    </li>
+                    <!-- End Features - Headers -->
 
+                  </ul>
                 </li>
                 <!-- End Home -->
-                
-                <li class="nav-item g-mr-10--lg g-mr-20--xl">
-                  <a id="nav-link--home" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="{{ url('agenda') }}">
-                    Agenda
-                  </a>
 
+               
+                <!-- Features -->
+                <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                  <a id="nav-link--features" class="nav-link g-py-7 g-px-0" href="{{ url('agenda') }}" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features">Agenda</a>
+
+                  <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
+                    <!-- Features - Headers -->
+                    <li class="dropdown-item ">
+                      <a class="nav-link" href="{{ url('agenda') }}" >Agenda</a>
+                    </li>
+                    <li class="dropdown-item ">
+                      <a class="nav-link" href="{{asset('agenda_files/Guyana_Local_Content 2018_Draft_Agenda2.pdf')}}" target="_blank">Download Agenda</a>
+                    </li>
+                    <!-- End Features - Headers -->
+
+                  </ul>
                 </li>
-                <!-- End Home -->
+                <!-- End Features -->
+               
+
                 <!-- Home -->
                 <li class="nav-item g-mr-10--lg g-mr-20--xl">
                   <a id="nav-link--home" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="{{url('speakers')}}">

@@ -414,7 +414,7 @@
                     <!-- Article Content -->
                     <div class="col-md-7 align-self-center">
                       <h3 class="h4 g-mb-15">
-                        <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="#!">Hotels which are near the conference venue, Arthur Chung Conference Centre, include:</a>
+                        <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="{{asset('registration_info_files/hotel_info.pdf')}}" target="_blank">Hotels which are near the conference venue, Arthur Chung Conference Centre, include:</a>
                       </h3>
 
                       <div class="col-lg">
@@ -436,7 +436,7 @@
                     </div>
                     <p>Delegates can make reservation directly with any preferred hotel</p>
                     <p>For further enquiries please email: info@marakconsulting.com</p>
-
+                    <a class="btn btn-primary" href="{{asset('registration_info_files/hotel_info.pdf')}}" target="_blank" role="button">Download Hotel information and Rates</a>
                   </div>
                     <!-- End Article Content -->
                   </div>
