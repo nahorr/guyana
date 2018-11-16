@@ -19,116 +19,68 @@
                 
                 <!-- Breaking News -->
                 <div class="g-mb-10">
+
                   <div class="u-heading-v3-1 g-mb-30">
                     <h2 class="h5 u-heading-v3__title g-font-primary g-font-weight-700 g-color-gray-dark-v1 text-uppercase g-brd-primary">Registration</h2>
                   </div>
-                  <article class="text-center g-mb-10">
+                  <!-- <article class="text-center g-mb-10">
                     <figure class="g-pos-rel mb-5">
                       <img class="img-fluid" src="{{asset('unify/assets/img-temp/900x400/GOGA_Conference_Advert.jpg')}}" alt="GOGA Conference Advert">
 
                     </figure>
-                  </article>
+                  </article> -->
 
                   <div class="row g-mb-10">
-                  <h3 class="h5">
-                    Please select the right category from the choices in the registration link below:
-                  </h3>
+
+                    <h3 class="h5">
+                      We look forward to welcoming you the Local Content Conference and Exhibition on 04 – 05 December 2018!
+                      <p><strong>Please register for the Conference by selecting the right category (Local Companies, Student, or international companies) from the choices in the registration link below:</strong></p>
+                    </h3>
 
                       
                   </div>
+                  <div class="row g-mb-10">
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 
-<input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="cmd" value="_s-xclick">
 
-<input type="hidden" name="hosted_button_id" value="GR75MCSNMZWNU">
+                      <input type="hidden" name="hosted_button_id" value="GR75MCSNMZWNU">
 
-<table>
+                      <table>
 
-<tr><td><input type="hidden" name="on0" value="Conference fee">Conference fee</td></tr><tr><td><select name="os0">
+                      <tr><td><input type="hidden" name="on0" value="Conference fee">Conference fee</td></tr><tr><td><select name="os0">
 
-               <option value="Local/Indigenous Companies fee">Local/Indigenous Companies fee $300.00 USD</option>
+                                     <option value="Local/Indigenous Companies fee">Local/Indigenous Companies fee $300.00 USD</option>
 
-               <option value="International Companies">International Companies $650.00 USD</option>
+                                     <option value="International Companies">International Companies $650.00 USD</option>
 
-               <option value="Student Fee">Student Fee $75.00 USD</option>
+                                     <option value="Student Fee">Student Fee $75.00 USD</option>
 
-</select> </td></tr>
+                      </select> </td></tr>
 
-<tr><td><input type="hidden" name="on1" value="Name of Delegate">Name of Delegate</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+                      <tr><td><input type="hidden" name="on1" value="Name of Delegate">Name of Delegate</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
 
-<tr><td><input type="hidden" name="on2" value="Email Address of Delegate">Email Address of Delegate</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
+                      <tr><td><input type="hidden" name="on2" value="Email Address of Delegate">Email Address of Delegate</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
 
-</table>
+                      </table>
 
-<input type="hidden" name="currency_code" value="USD">
+                      <input type="hidden" name="currency_code" value="USD">
+                      <br>
 
-<input type="image" src="https://guyana.localcontentworld.com/registration" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 
-</form>
+                    </form>
                     
-                  <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-
-                    <input type="hidden" name="cmd" value="_s-xclick">
-
-                    <input type="hidden" name="hosted_button_id" value="GR75MCSNMZWNU">
-
-                    <table>
-
-                    <tr><td><input type="hidden" name="on0" value="Early bird fee until Oct 31 plus standard fees">Fee Details</td></tr><tr><td><select name="os0">
-
-                                   <option value="Early bird fee until Oct 31">Early bird fee until Oct 31 : $650</option>
-
-                                   <option value="Conference fee after Oct. 31">After 31 Oct : $850</option>
-
-                    </select> </td></tr>
-
-                    </table>
-
-                    <input type="hidden" name="currency_code" value="USD">
-
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-
-                  </form> -->
+                 
 
                   </div>
                 </div>
                 <!-- End Breaking News -->
 
 
-                <div class="row">
-
-                  <!-- Article Content -->
-                    <!-- <div class="col-md-12 align-self-center">
-                      <h3 class="h4 g-mb-15">
-                        <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="#!"> Fee details: </a>
-                      </h3>
-
-                      <div class="col-lg">
-                        <ul class="list-unstyled g-mb-12 g-mb-0--md">
-                          <li class="d-flex align-items-center g-mb-12">
-                            <i class="icon-check d-block g-color-primary g-mr-8"></i>
-                            <span class="d-block">Indigenous Guyanese businesses: $300</span>
-                          </li>
-                          <li class="d-flex align-items-center g-mb-12">
-                            <i class="icon-check d-block g-color-primary g-mr-8"></i>
-                            <span class="d-block">International and non-indigenous businesses: $650</span>
-                          </li>
-                          
-                        </ul>
-                      </div>
-                      
-                  </div> -->
-                    <!-- End Article Content -->
-
-                  <!-- Article Content -->
-                    
-                    <!-- End Article Content -->
-                    
-                </div>
+                
 
                 <!-- Breaking News -->
                 <div class="g-mb-60">
