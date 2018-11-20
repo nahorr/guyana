@@ -109,6 +109,26 @@
                   </div>
                   <!-- End Article Video -->
 
+                   <!-- Article Video -->
+                  <div class="col-lg-4 col-sm-6 g-mb-30">
+                    <article>
+                      <figure class="u-shadow-v25 g-pos-rel g-mb-20">
+                        <img class="img-fluid w-100" src="{{asset('unify/assets/img/sponsors/MaysonBlackhouse.jpg')}}" alt="bpi">
+
+                        <figcaption class="g-pos-abs g-top-10 g-left-10">
+                          <a class="btn btn-xs u-btn-red text-uppercase rounded-0" href="#!">Gold Sponsor</a>
+                        </figcaption>
+
+                        
+                      </figure>
+
+                      <h3 class="g-font-size-16 g-mb-10">
+                        <a class="u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="#!">Gold Sponsor: Mayson Blackhouse Guyana <a href="https://maysonblackhouse.com/" target="_blank">Mayson Blackhouse Guyana</a>
+                      </h3>
+                    </article>
+                  </div>
+                  <!-- End Article Video -->
+
                  
                 </div>
                 

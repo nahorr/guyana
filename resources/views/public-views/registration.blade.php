@@ -40,7 +40,10 @@
                       
                   </div>
                   <div class="row g-mb-10">
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+
+                    <a class="btn btn-primary btn-lg" href="https://www.eventbrite.com/e/guyana-local-content-conference-tickets-52865305552" role="button">Register Now</a>
+                    
+                    <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 
                       <input type="hidden" name="cmd" value="_s-xclick">
 
@@ -71,7 +74,7 @@
 
                       <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 
-                    </form>
+                    </form> -->
                     
                  
 
