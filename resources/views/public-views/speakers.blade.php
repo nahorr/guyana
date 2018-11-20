@@ -77,13 +77,13 @@
 	                   <!-- Figure -->
 	                   <figure class="g-color-gray-dark-v2">
 	                     <!-- Figure Image -->
-	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/defualt.png')}}" alt="Dr. Mark Bynoe">
+	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/defualt.png')}}" alt="Mr. Nigel Hughes">
 	                     <!-- End Figure Image -->
 
 	                     <!-- Figure Info -->
 	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Keynote Speaker</strong></em>
-	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Dr. Mark Bynoe</h4>
-	                     <p class="g-font-size-13 g-color-gray-dark-v4">Head, Department of Energy</p>
+	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Mr. Nigel Hughes</h4>
+	                     <p class="g-font-size-13 g-color-gray-dark-v4">Director, Guyana Oil and Gas Association</p>
 	                     <!-- End Info -->
 
 	                     <hr class="g-brd-gray-light-v4 g-my-15">
@@ -166,8 +166,8 @@
 
 	                     <!-- Figure Info -->
 	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Speaker</strong></em>
-	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">University of Guyana</h4>
-	                     <p class="g-font-size-13 g-color-gray-dark-v4">Government of Guyana</p>
+	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Professor Leyland Lucas</h4>
+	                     <p class="g-font-size-13 g-color-gray-dark-v4">Dean, School of Entrepreneurship and Business Innovation, University of Guyana</p>
 	                     <!-- End Info -->
 
 	                     <hr class="g-brd-gray-light-v4 g-my-15">
@@ -267,13 +267,13 @@
 	                   <!-- Figure -->
 	                   <figure class="g-color-gray-dark-v2">
 	                     <!-- Figure Image -->
-	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/defualt.png')}}" alt="Newell Dennison">
+	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/defualt.png')}}" alt="Ms. Valrie Grant">
 	                     <!-- End Figure Image -->
 
 	                     <!-- Figure Info -->
 	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Speaker</strong></em>
-	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Mr. Newell Dennison</h4>
-	                     <p class="g-font-size-13 g-color-gray-dark-v4">Commissioner Guyana Geological and Mining Commission, Guyana</p>
+	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Ms. Valrie Grant</h4>
+	                     <p class="g-font-size-13 g-color-gray-dark-v4">Chair, Small Business Bureau</p>
 	                     <!-- End Info -->
 
 	                     
@@ -296,13 +296,13 @@
 	                   <!-- Figure -->
 	                   <figure class="g-color-gray-dark-v2">
 	                     <!-- Figure Image -->
-	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/defualt.png')}}" alt="Newell Dennison">
+	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/defualt.png')}}" alt="Mr. Robert M. Persaud">
 	                     <!-- End Figure Image -->
 
 	                     <!-- Figure Info -->
 	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Speaker</strong></em>
-	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Hon. Raphael G.C. Trotman, M.P</h4>
-	                     <p class="g-font-size-13 g-color-gray-dark-v4">Minister of Natural Resources, Guyana</p>
+	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Mr. Robert M. Persaud</h4>
+	                     <p class="g-font-size-13 g-color-gray-dark-v4">Former Minister of Natural Resources and the Environment</p>
 	                     <!-- End Info -->
 
 	                     
@@ -319,111 +319,13 @@
 	                   <!-- Figure -->
 	                   <figure class="g-color-gray-dark-v2">
 	                     <!-- Figure Image -->
-	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/defualt.png')}}" alt="Newell Dennison">
+	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/THURANTHIRAN_NADARAJAH.jpg')}}" alt="Mr. Thuranthiran Nadarajah">
 	                     <!-- End Figure Image -->
 
 	                     <!-- Figure Info -->
 	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Speaker</strong></em>
-	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Representative from The Petroleum Authority of Uganda</h4>
-	                     <p class="g-font-size-13 g-color-gray-dark-v4">Paper: Local Content: Uganda’s Experience</p>
-	                     <!-- End Info -->
-
-	                     
-
-	                     <!-- Contact Info -->
-	                     <ul class="list-unstyled g-font-size-13 g-color-gray-dark-v4">
-	                       
-	                     </ul>
-	                     <!-- End Contact Info -->
-	                   </figure>
-	                   <!-- End Figure -->
-	                 </div>
-	                 <div class="col-lg-3 col-sm-6 g-mb-30">
-	                   <!-- Figure -->
-	                   <figure class="g-color-gray-dark-v2">
-	                     <!-- Figure Image -->
-	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/defualt.png')}}" alt="Newell Dennison">
-	                     <!-- End Figure Image -->
-
-	                     <!-- Figure Info -->
-	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Speaker</strong></em>
-	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Tom Deeb</h4>
-	                     <p class="g-font-size-13 g-color-gray-dark-v4">Local Content Expert V.P. T&M Associates</p>
-	                     <!-- End Info -->
-
-	                     
-
-	                     <!-- Contact Info -->
-	                     <ul class="list-unstyled g-font-size-13 g-color-gray-dark-v4">
-	                       
-	                     </ul>
-	                     <!-- End Contact Info -->
-	                   </figure>
-	                   <!-- End Figure -->
-	                 </div>
-	                  <div class="col-lg-3 col-sm-6 g-mb-30">
-	                   <!-- Figure -->
-	                   <figure class="g-color-gray-dark-v2">
-	                     <!-- Figure Image -->
-	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/defualt.png')}}" alt="Newell Dennison">
-	                     <!-- End Figure Image -->
-
-	                     <!-- Figure Info -->
-	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Speaker</strong></em>
-	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Isabelle Ramodoo</h4>
-	                     <p class="g-font-size-13 g-color-gray-dark-v4">Senior Associate and Development Economist Intergovernmental Forum on Mining, Mineral, Metals and Sustainable Development(IGF/IISD)</p>
-	                     <!-- End Info -->
-
-	                     
-
-	                     <!-- Contact Info -->
-	                     <ul class="list-unstyled g-font-size-13 g-color-gray-dark-v4">
-	                       
-	                     </ul>
-	                     <!-- End Contact Info -->
-	                   </figure>
-	                   <!-- End Figure -->
-	                 </div>
-	               </div>
-	               <hr>
-	               <!-- End Team Block 3 -->
-
-	               <!-- Team Block 3 -->
-	               <div class="row">
-	                 <div class="col-lg-3 col-sm-6 g-mb-30">
-	                   <!-- Figure -->
-	                   <figure class="g-color-gray-dark-v2">
-	                     <!-- Figure Image -->
-	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/defualt.png')}}" alt="Newell Dennison">
-	                     <!-- End Figure Image -->
-
-	                     <!-- Figure Info -->
-	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Speaker</strong></em>
-	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Representative from UNCTAD</h4>
-	                     <p class="g-font-size-13 g-color-gray-dark-v4">Paper: TBD</p>
-	                     <!-- End Info -->
-
-	                     
-
-	                     <!-- Contact Info -->
-	                     <ul class="list-unstyled g-font-size-13 g-color-gray-dark-v4">
-	                       
-	                     </ul>
-	                     <!-- End Contact Info -->
-	                   </figure>
-	                   <!-- End Figure -->
-	                 </div>
-	                 <div class="col-lg-3 col-sm-6 g-mb-30">
-	                   <!-- Figure -->
-	                   <figure class="g-color-gray-dark-v2">
-	                     <!-- Figure Image -->
-	                     <img class="w-100 g-mb-30" src="{{asset('unify/assets/img/speakers/defualt.png')}}" alt="Newell Dennison">
-	                     <!-- End Figure Image -->
-
-	                     <!-- Figure Info -->
-	                     <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5"><strong>Speaker</strong></em>
-	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Representative from Saipem</h4>
-	                     <p class="g-font-size-13 g-color-gray-dark-v4">Paper: Saipem’s SELCE program</p>
+	                     <h4 class="h5 g-color-black-light-v3 g-mb-5">Mr. Thuranthiran Nadarajah</h4>
+	                     <p class="g-font-size-13 g-color-gray-dark-v4">Country/Base Manager, Saipem Guyana, LIZA CB Project</p>
 	                     <!-- End Info -->
 
 	                     
@@ -486,12 +388,11 @@
 	                   </figure>
 	                   <!-- End Figure -->
 	                 </div>
-	                  
 	               </div>
 	               <hr>
 	               <!-- End Team Block 3 -->
 
-
+	          
 	             </div>
            	</div>
        	</div>
