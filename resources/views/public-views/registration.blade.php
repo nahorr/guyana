@@ -41,7 +41,7 @@
                   </div>
                   <div class="row g-mb-10">
 
-                    <a class="btn btn-primary btn-lg" href="https://www.eventbrite.com/e/guyana-local-content-conference-tickets-52865305552" role="button">Register Now</a>
+                    <a class="btn btn-primary btn-lg" href="https://www.eventbrite.com/e/guyana-local-content-conference-04-05-december-2018-accc-georgetown-tickets-52942097238" role="button">Register Now</a>
                     
                     <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 
