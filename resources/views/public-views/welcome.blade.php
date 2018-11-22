@@ -5,6 +5,7 @@
    @include('layouts.public.includes.nav')
 
    @include('layouts.public.includes.nav-header-home')
+   
   
 
         <!-- News Content -->
